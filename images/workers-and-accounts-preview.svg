@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Design preview for the proposed Workers and Clients report pages. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Worker workload and Client revenue dashboard preview</title>
+  <desc id="desc">Anonymous worker counts compared with the team average and three anonymous Client revenue summaries.</desc>
+
+  <!-- Shared background, fonts and report header. -->
+  <rect width="1200" height="675" fill="#F5F7FA"/>
+  <style>
+    .title { font: 700 24px Arial, sans-serif; fill: #FFFFFF; }
+    .subtitle { font: 400 12px Arial, sans-serif; fill: #CBD5E1; }
+    .section { font: 700 15px Arial, sans-serif; fill: #172B4D; }
+    .label { font: 600 11px Arial, sans-serif; fill: #526174; }
+    .value { font: 700 24px Arial, sans-serif; fill: #172B4D; }
+    .small { font: 400 11px Arial, sans-serif; fill: #64748B; }
+    .barvalue { font: 600 11px Arial, sans-serif; fill: #172B4D; }
+  </style>
+  <rect width="1200" height="76" fill="#172B4D"/>
+  <text x="36" y="33" class="title">Workers, Clients and Previous-Period Change</text>
+  <text x="36" y="55" class="subtitle">Work completed, team average and revenue by Client.</text>
+
+  <!-- Worker KPI cards explain the scale before the detailed comparison. -->
+  <g transform="translate(36,96)">
+    <rect width="202" height="82" rx="8" fill="#FFFFFF"/>
+    <text x="16" y="24" class="label">ACTIVE WORKERS</text>
+    <text x="16" y="56" class="value">8</text>
+  </g>
+  <g transform="translate(252,96)">
+    <rect width="202" height="82" rx="8" fill="#FFFFFF"/>
+    <text x="16" y="24" class="label">TEAM AVERAGE</text>
+    <text x="16" y="56" class="value">96.9 items</text>
+  </g>
+  <g transform="translate(468,96)">
+    <rect width="202" height="82" rx="8" fill="#FFFFFF"/>
+    <text x="16" y="24" class="label">TOP TWO SHARE</text>
+    <text x="16" y="56" class="value">59.0%</text>
+  </g>
+
+  <!-- Horizontal worker bars compare completed items with the team average line. -->
+  <g transform="translate(36,196)">
+    <rect width="634" height="422" rx="8" fill="#FFFFFF"/>
+    <text x="20" y="32" class="section">Work Items by Worker</text>
+    <text x="20" y="52" class="small">The orange line marks the team average of 96.9 items.</text>
+    <line x1="260" y1="70" x2="260" y2="378" stroke="#E07A5F" stroke-width="3" stroke-dasharray="5 5"/>
+    <text x="268" y="82" class="small">Average</text>
+
+    <!-- Each row shows the anonymous worker and exact Work Item count. -->
+    <text x="20" y="104" class="label">Worker 01</text><rect x="115" y="88" width="3" height="22" rx="3" fill="#4C78A8"/><text x="126" y="104" class="barvalue">2</text>
+    <text x="20" y="144" class="label">Worker 02</text><rect x="115" y="128" width="41" height="22" rx="3" fill="#4C78A8"/><text x="164" y="144" class="barvalue">27</text>
+    <text x="20" y="184" class="label">Worker 03</text><rect x="115" y="168" width="183" height="22" rx="3" fill="#4C78A8"/><text x="306" y="184" class="barvalue">122</text>
+    <text x="20" y="224" class="label">Worker 04</text><rect x="115" y="208" width="80" height="22" rx="3" fill="#4C78A8"/><text x="203" y="224" class="barvalue">53</text>
+    <text x="20" y="264" class="label">Worker 05</text><rect x="115" y="248" width="296" height="22" rx="3" fill="#3B6F9E"/><text x="419" y="264" class="barvalue">197</text>
+    <text x="20" y="304" class="label">Worker 06</text><rect x="115" y="288" width="390" height="22" rx="3" fill="#2B5D87"/><text x="513" y="304" class="barvalue">260</text>
+    <text x="20" y="344" class="label">Worker 07</text><rect x="115" y="328" width="29" height="22" rx="3" fill="#4C78A8"/><text x="152" y="344" class="barvalue">19</text>
+    <text x="20" y="384" class="label">Worker 08</text><rect x="115" y="368" width="15" height="22" rx="3" fill="#4C78A8"/><text x="138" y="384" class="barvalue">10</text>
+  </g>
+
+  <!-- Client cards show real revenue and the latest change for each Client. -->
+  <g transform="translate(694,96)">
+    <rect width="470" height="522" rx="8" fill="#FFFFFF"/>
+    <text x="20" y="34" class="section">Revenue by anonymous Client</text>
+    <text x="20" y="54" class="small">Three Clients; real revenue and period changes.</text>
+
+    <rect x="20" y="78" width="430" height="104" rx="7" fill="#EEF5FB"/>
+    <text x="36" y="105" class="label">CLIENT 1 · 55.3% OF WORK REVENUE</text>
+    <text x="36" y="140" class="value">A$24.5k</text>
+    <text x="250" y="140" class="barvalue" fill="#B44D3A">Latest vs previous: -8.7%</text>
+    <text x="36" y="164" class="small">447 Work Items · 38.8% margin</text>
+
+    <rect x="20" y="196" width="430" height="104" rx="7" fill="#F2F5F8"/>
+    <text x="36" y="223" class="label">CLIENT 2 · 29.5% OF WORK REVENUE</text>
+    <text x="36" y="258" class="value">A$13.1k</text>
+    <text x="250" y="258" class="barvalue" fill="#B44D3A">Latest vs previous: -2.9%</text>
+    <text x="36" y="282" class="small">211 Work Items · 36.5% margin</text>
+
+    <rect x="20" y="314" width="430" height="104" rx="7" fill="#ECF7EF"/>
+    <text x="36" y="341" class="label">CLIENT 3 · 15.2% OF WORK REVENUE</text>
+    <text x="36" y="376" class="value">A$6.7k</text>
+    <text x="250" y="376" class="barvalue" fill="#237A46">Latest vs previous: +20.6%</text>
+    <text x="36" y="400" class="small">117 Work Items · 42.8% margin</text>
+
+    <rect x="20" y="438" width="430" height="60" rx="7" fill="#FFF4E5"/>
+    <text x="36" y="462" class="label" fill="#9A6700">CLIENT ALIAS COVERAGE: 100%</text>
+    <text x="36" y="482" class="small">Client 1 supplies 55.3% of Work Item revenue.</text>
+  </g>
+
+  <!-- Footer makes the evidence status clear. -->
+  <text x="36" y="648" class="small">REPORT DESIGN PREVIEW · Rebuild and test in Power BI Desktop before publication</text>
+</svg>

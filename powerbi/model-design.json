@@ -1,0 +1,57 @@
+{
+  "_comment": "Draft model contract for review and implementation in Power BI Desktop.",
+  "schema": "portfolio.powerbi.model-design.v1",
+  "projectName": "Kuai Cleaning Operations and Profitability Analytics",
+  "businessPurpose": "Protect margin while maintaining operational and billing control.",
+  "evidenceMaturity": "Draft until validated in Power BI Desktop",
+  "architecture": {
+    "_comment": "Facts retain their declared grains and share conformed dimensions.",
+    "pattern": "Star schema",
+    "factTables": [
+      "FactWorkItem",
+      "FactManualEntry",
+      "FactPropertyPeriodSnapshot"
+    ],
+    "dimensionTables": [
+      "DimDate",
+      "DimBillingPeriod",
+      "DimProperty",
+      "DimWorker",
+      "DimClient"
+    ],
+    "measureTable": "Measures"
+  },
+  "semanticPlan": {
+    "_comment": "KPI definitions and tests live in the dax and docs folders.",
+    "kpiOwner": "Business owner",
+    "currency": "AUD",
+    "culture": "en-AU",
+    "refreshExpectation": "After each closed 14-day billing period",
+    "defaultTimeView": "Billing Period",
+    "optionalTimeView": "Month, with partial-month labels",
+    "clientDataStatus": "The business has three Clients, shown as Client 1, Client 2 and Client 3",
+    "financialTolerance": 0.01
+  },
+  "reportPlan": {
+    "_comment": "Each page is tied to a management decision rather than a source table.",
+    "pages": [
+      "Business Overview",
+      "Monthly Performance",
+      "Billing Period Trend",
+      "Worker Performance",
+      "Client Analysis",
+      "Property Analysis",
+      "Jobs and Tasks",
+      "Billing and Adjustments",
+      "Billing Checks"
+    ]
+  },
+  "safeNextSteps": [
+    "Create and save a PBIP project in Power BI Desktop.",
+    "Load the public sample through the supplied Power Query files.",
+    "Create the documented relationships and explicit DAX measures.",
+    "Run the semantic tests and inspect every report page.",
+    "Replace design previews with validated Power BI screenshots."
+  ],
+  "binaryBoundary": "No PBIX or PBIT binary is created or modified by this repository."
+}

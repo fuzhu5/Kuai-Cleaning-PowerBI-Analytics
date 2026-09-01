@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Worker dashboard preview compares activity, pay and value without calling it productivity. -->
+  <style>.bg{fill:#f4f7fb}.panel{fill:#fff;stroke:#dfe7ef}.title{font:700 25px Arial;fill:#152536}.sub{font:14px Arial;fill:#64748b}.label{font:12px Arial;fill:#64748b}.value{font:700 24px Arial;fill:#152536}.blue{fill:#2f6fed}.teal{fill:#16a3a6}.line{stroke:#f59e0b;stroke-width:3;stroke-dasharray:7 5}.axis{stroke:#d8e1ea}.green{fill:#238b57}.red{fill:#c94b4b}.row{fill:#f8fafc}</style>
+  <rect width="1200" height="675" class="bg"/>
+  <text x="34" y="43" class="title">Worker Performance</text><text x="34" y="67" class="sub">Workload, pay and business contribution</text>
+  <!-- KPI cards. -->
+  <g transform="translate(34 92)"><rect width="260" height="88" rx="12" class="panel"/><text x="18" y="27" class="label">ACTIVE WORKERS</text><text x="18" y="62" class="value">8</text></g>
+  <g transform="translate(312 92)"><rect width="260" height="88" rx="12" class="panel"/><text x="18" y="27" class="label">TEAM AVERAGE</text><text x="18" y="62" class="value">96.9 items</text></g>
+  <g transform="translate(590 92)"><rect width="260" height="88" rx="12" class="panel"/><text x="18" y="27" class="label">HIGHEST WORKLOAD</text><text x="18" y="62" class="value">Worker 06 · 260</text></g>
+  <g transform="translate(868 92)"><rect width="298" height="88" rx="12" class="panel"/><text x="18" y="27" class="label">WORKER 05 + 06 SHARE</text><text x="18" y="62" class="value">59.0%</text></g>
+  <!-- Horizontal activity bars with a team-average reference line. -->
+  <g transform="translate(34 204)">
+    <rect width="630" height="425" rx="12" class="panel"/><text x="22" y="34" class="sub">Work Items by worker</text>
+    <line x1="258" y1="58" x2="258" y2="390" class="line"/><text x="236" y="410" class="label">Avg 96.9</text>
+    <text x="22" y="83" class="label">Worker 01</text><rect x="112" y="69" width="4" height="18" rx="4" class="blue"/>
+    <text x="22" y="125" class="label">Worker 02</text><rect x="112" y="111" width="54" height="18" rx="4" class="blue"/>
+    <text x="22" y="167" class="label">Worker 03</text><rect x="112" y="153" width="244" height="18" rx="4" class="blue"/>
+    <text x="22" y="209" class="label">Worker 04</text><rect x="112" y="195" width="106" height="18" rx="4" class="blue"/>
+    <text x="22" y="251" class="label">Worker 05</text><rect x="112" y="237" width="394" height="18" rx="4" class="teal"/>
+    <text x="22" y="293" class="label">Worker 06</text><rect x="112" y="279" width="500" height="18" rx="4" class="teal"/>
+    <text x="22" y="335" class="label">Worker 07</text><rect x="112" y="321" width="38" height="18" rx="4" class="blue"/>
+    <text x="22" y="377" class="label">Worker 08</text><rect x="112" y="363" width="20" height="18" rx="4" class="blue"/>
+  </g>
+  <!-- Compact worker table. -->
+  <g transform="translate(682 204)">
+    <rect width="484" height="425" rx="12" class="panel"/><text x="22" y="34" class="sub">Money linked to completed work</text>
+    <text x="22" y="70" class="label">WORKER</text><text x="130" y="70" class="label">REVENUE</text><text x="240" y="70" class="label">PAY</text><text x="342" y="70" class="label">INCOME</text>
+    <rect x="14" y="82" width="456" height="50" rx="7" class="row"/><text x="22" y="112" class="sub">Worker 03</text><text x="130" y="112" class="sub">A$6,559</text><text x="240" y="112" class="sub">A$4,559</text><text x="342" y="112" class="sub">A$1,975</text>
+    <rect x="14" y="140" width="456" height="50" rx="7" class="row"/><text x="22" y="170" class="sub">Worker 05</text><text x="130" y="170" class="sub">A$11,517</text><text x="240" y="170" class="sub">A$7,697</text><text x="342" y="170" class="sub">A$3,809</text>
+    <rect x="14" y="198" width="456" height="50" rx="7" class="row"/><text x="22" y="228" class="sub">Worker 06</text><text x="130" y="228" class="sub">A$14,821</text><text x="240" y="228" class="sub">A$9,955</text><text x="342" y="228" class="sub">A$4,835</text>
+    <text x="22" y="296" class="label">LATEST PERIOD</text><text x="22" y="326" class="sub">Worker 03</text><text x="130" y="326" class="sub">28 items</text><text x="240" y="326" class="red">-3.4%</text>
+    <text x="22" y="360" class="sub">Worker 05</text><text x="130" y="360" class="sub">22 items</text><text x="240" y="360" class="red">-15.4%</text>
+    <text x="22" y="400" class="label">Workload only · hours, travel and quality are not available.</text>
+  </g>
+</svg>

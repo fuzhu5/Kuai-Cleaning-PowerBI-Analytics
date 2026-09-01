@@ -1,0 +1,435 @@
+// -----------------------------------------------------------------------------
+// Revenue block: keep each source fact visible before presenting combined KPIs.
+// -----------------------------------------------------------------------------
+MEASURE 'Measures'[Work Item Client Revenue] =
+    SUM ( FactWorkItem[Approved Client Price] )
+
+MEASURE 'Measures'[Manual Client Revenue] =
+    CALCULATE (
+        SUM ( FactManualEntry[Approved Client Price] ),
+        FactManualEntry[Status] = "active"
+    )
+
+MEASURE 'Measures'[Total Client Revenue] =
+    [Work Item Client Revenue] + [Manual Client Revenue]
+
+
+// -----------------------------------------------------------------------------
+// Cost block: separate labour payments from other business costs.
+// -----------------------------------------------------------------------------
+MEASURE 'Measures'[Work Item Worker Payout] =
+    SUM ( FactWorkItem[Approved Worker Price] )
+
+MEASURE 'Measures'[Manual Worker Payout] =
+    CALCULATE (
+        SUM ( FactManualEntry[Approved Worker Price] ),
+        FactManualEntry[Status] = "active"
+    )
+
+MEASURE 'Measures'[Total Worker Payout] =
+    [Work Item Worker Payout] + [Manual Worker Payout]
+
+MEASURE 'Measures'[Total Other Cost] =
+    SUM ( FactWorkItem[Cost] )
+        + CALCULATE (
+            SUM ( FactManualEntry[Cost] ),
+            FactManualEntry[Status] = "active"
+        )
+
+
+// -----------------------------------------------------------------------------
+// Profit block: use recorded Business Income and expose its accounting identity.
+// -----------------------------------------------------------------------------
+MEASURE 'Measures'[Work Item Business Income] =
+    SUM ( FactWorkItem[Business Income] )
+
+MEASURE 'Measures'[Manual Business Income] =
+    CALCULATE (
+        SUM ( FactManualEntry[Business Income] ),
+        FactManualEntry[Status] = "active"
+    )
+
+MEASURE 'Measures'[Business Income] =
+    [Work Item Business Income] + [Manual Business Income]
+
+MEASURE 'Measures'[Business Margin %] =
+    DIVIDE ( [Business Income], [Total Client Revenue] )
+
+MEASURE 'Measures'[Financial Reconciliation Variance] =
+    SUM ( FactWorkItem[Reconciliation Variance] )
+        + SUM ( FactManualEntry[Reconciliation Variance] )
+
+MEASURE 'Measures'[Financial Reconciliation Status] =
+    IF ( ABS ( [Financial Reconciliation Variance] ) <= 0.01, "Pass", "Fail" )
+
+
+// -----------------------------------------------------------------------------
+// Volume block: describe the operational grain without treating count as effort.
+// -----------------------------------------------------------------------------
+MEASURE 'Measures'[Work Item Count] =
+    COUNTROWS ( FactWorkItem )
+
+MEASURE 'Measures'[Job Count] =
+    CALCULATE ( [Work Item Count], FactWorkItem[Work Item Type] = "Job" )
+
+MEASURE 'Measures'[Task Count] =
+    CALCULATE ( [Work Item Count], FactWorkItem[Work Item Type] = "Task" )
+
+MEASURE 'Measures'[Manual Entry Count] =
+    CALCULATE ( COUNTROWS ( FactManualEntry ), FactManualEntry[Status] = "active" )
+
+MEASURE 'Measures'[Active Property Count] =
+    DISTINCTCOUNT ( FactWorkItem[Property Key] )
+
+MEASURE 'Measures'[Task Share %] =
+    DIVIDE ( [Task Count], [Work Item Count] )
+
+MEASURE 'Measures'[Active Worker Count] =
+    CALCULATE (
+        DISTINCTCOUNT ( FactWorkItem[Worker Key] ),
+        FactWorkItem[Worker Key] <> BLANK (),
+        FactWorkItem[Worker Key] <> ""
+    )
+
+MEASURE 'Measures'[Average Work Items per Active Worker] =
+    VAR AllWorkerItems =
+        CALCULATE ( [Work Item Count], REMOVEFILTERS ( DimWorker ) )
+    VAR AllActiveWorkers =
+        CALCULATE ( [Active Worker Count], REMOVEFILTERS ( DimWorker ) )
+    RETURN
+        DIVIDE ( AllWorkerItems, AllActiveWorkers )
+
+
+// -----------------------------------------------------------------------------
+// Unit economics block: support pricing and portfolio discussions.
+// -----------------------------------------------------------------------------
+MEASURE 'Measures'[Average Revenue per Job] =
+    DIVIDE (
+        CALCULATE ( [Work Item Client Revenue], FactWorkItem[Work Item Type] = "Job" ),
+        [Job Count]
+    )
+
+MEASURE 'Measures'[Revenue per Active Property] =
+    DIVIDE ( [Work Item Client Revenue], [Active Property Count] )
+
+MEASURE 'Measures'[Business Income Contribution %] =
+    DIVIDE (
+        [Business Income],
+        CALCULATE ( [Business Income], REMOVEFILTERS ( DimProperty ) )
+    )
+
+MEASURE 'Measures'[Property Revenue Rank] =
+    RANKX (
+        ALLSELECTED ( DimProperty[Property Key] ),
+        [Work Item Client Revenue],
+        ,
+        DESC,
+        DENSE
+    )
+
+
+// -----------------------------------------------------------------------------
+// Worker block: show workload, pay and business contribution side by side.
+// These measures describe activity, not productivity, because hours are absent.
+// -----------------------------------------------------------------------------
+MEASURE 'Measures'[Average Revenue per Work Item] =
+    DIVIDE ( [Work Item Client Revenue], [Work Item Count] )
+
+MEASURE 'Measures'[Average Worker Payout per Work Item] =
+    DIVIDE ( [Work Item Worker Payout], [Work Item Count] )
+
+MEASURE 'Measures'[Average Business Income per Work Item] =
+    DIVIDE ( [Work Item Business Income], [Work Item Count] )
+
+MEASURE 'Measures'[Worker Workload vs Average %] =
+    DIVIDE ( [Work Item Count], [Average Work Items per Active Worker] ) - 1
+
+MEASURE 'Measures'[Worker Share of Work %] =
+    DIVIDE (
+        [Work Item Count],
+        CALCULATE ( [Work Item Count], REMOVEFILTERS ( DimWorker ) )
+    )
+
+MEASURE 'Measures'[Worker Payout Share %] =
+    DIVIDE (
+        [Work Item Worker Payout],
+        CALCULATE ( [Work Item Worker Payout], REMOVEFILTERS ( DimWorker ) )
+    )
+
+MEASURE 'Measures'[Worker Business Income Contribution %] =
+    DIVIDE (
+        [Work Item Business Income],
+        CALCULATE ( [Work Item Business Income], REMOVEFILTERS ( DimWorker ) )
+    )
+
+
+// -----------------------------------------------------------------------------
+// Client block: compare the business's three Clients consistently.
+// -----------------------------------------------------------------------------
+MEASURE 'Measures'[Client Revenue Share %] =
+    DIVIDE (
+        [Work Item Client Revenue],
+        CALCULATE ( [Work Item Client Revenue], REMOVEFILTERS ( DimClient ) )
+    )
+
+MEASURE 'Measures'[Client Business Income Share %] =
+    DIVIDE (
+        [Work Item Business Income],
+        CALCULATE ( [Work Item Business Income], REMOVEFILTERS ( DimClient ) )
+    )
+
+MEASURE 'Measures'[Client Work Item Share %] =
+    DIVIDE (
+        [Work Item Count],
+        CALCULATE ( [Work Item Count], REMOVEFILTERS ( DimClient ) )
+    )
+
+MEASURE 'Measures'[Client Count] =
+    DISTINCTCOUNT ( FactWorkItem[Client] )
+
+
+// -----------------------------------------------------------------------------
+// Exception block: quantify operational intervention and Task decisions.
+// -----------------------------------------------------------------------------
+MEASURE 'Measures'[Assignment Override Count] =
+    CALCULATE ( [Work Item Count], FactWorkItem[Assignment Overridden] = TRUE () )
+
+MEASURE 'Measures'[Assignment Override Rate] =
+    DIVIDE ( [Assignment Override Count], [Work Item Count] )
+
+MEASURE 'Measures'[Worker Price Override Count] =
+    CALCULATE ( [Work Item Count], FactWorkItem[Worker Price Overridden] = TRUE () )
+
+MEASURE 'Measures'[Worker Price Override Rate] =
+    DIVIDE ( [Worker Price Override Count], [Work Item Count] )
+
+MEASURE 'Measures'[Rejected Task Count] =
+    CALCULATE ( [Task Count], FactWorkItem[Pricing Status] = "task-rejected" )
+
+MEASURE 'Measures'[Approved Task Count] =
+    CALCULATE ( [Task Count], FactWorkItem[Pricing Status] = "task-approved" )
+
+MEASURE 'Measures'[Business Allocated Task Count] =
+    CALCULATE ( [Task Count], FactWorkItem[Pricing Status] = "task-business" )
+
+MEASURE 'Measures'[Task Rejection Rate] =
+    DIVIDE ( [Rejected Task Count], [Task Count] )
+
+MEASURE 'Measures'[Negative Manual Adjustment Count] =
+    CALCULATE (
+        [Manual Entry Count],
+        FactManualEntry[Adjustment Category] = "Negative adjustment"
+    )
+
+
+// -----------------------------------------------------------------------------
+// Time block: use the closed 14-day Billing Period for the main comparison.
+// Month remains optional, and the first and last months are marked as partial.
+// -----------------------------------------------------------------------------
+MEASURE 'Measures'[Latest Selected Billing Period Index] =
+    MAXX ( ALLSELECTED ( DimBillingPeriod ), DimBillingPeriod[Period Index] )
+
+MEASURE 'Measures'[Latest Billing Period Revenue] =
+    VAR LatestIndex = [Latest Selected Billing Period Index]
+    RETURN
+        CALCULATE (
+            [Total Client Revenue],
+            REMOVEFILTERS ( DimBillingPeriod ),
+            REMOVEFILTERS ( DimDate ),
+            DimBillingPeriod[Period Index] = LatestIndex
+        )
+
+MEASURE 'Measures'[Previous Billing Period Revenue] =
+    VAR LatestIndex = [Latest Selected Billing Period Index]
+    RETURN
+        CALCULATE (
+            [Total Client Revenue],
+            REMOVEFILTERS ( DimBillingPeriod ),
+            REMOVEFILTERS ( DimDate ),
+            DimBillingPeriod[Period Index] = LatestIndex - 1
+        )
+
+MEASURE 'Measures'[Latest Billing Period Business Income] =
+    VAR LatestIndex = [Latest Selected Billing Period Index]
+    RETURN
+        CALCULATE (
+            [Business Income],
+            REMOVEFILTERS ( DimBillingPeriod ),
+            REMOVEFILTERS ( DimDate ),
+            DimBillingPeriod[Period Index] = LatestIndex
+        )
+
+MEASURE 'Measures'[Previous Billing Period Business Income] =
+    VAR LatestIndex = [Latest Selected Billing Period Index]
+    RETURN
+        CALCULATE (
+            [Business Income],
+            REMOVEFILTERS ( DimBillingPeriod ),
+            REMOVEFILTERS ( DimDate ),
+            DimBillingPeriod[Period Index] = LatestIndex - 1
+        )
+
+MEASURE 'Measures'[Latest Billing Period Work Items] =
+    VAR LatestIndex = [Latest Selected Billing Period Index]
+    RETURN
+        CALCULATE (
+            [Work Item Count],
+            REMOVEFILTERS ( DimBillingPeriod ),
+            REMOVEFILTERS ( DimDate ),
+            DimBillingPeriod[Period Index] = LatestIndex
+        )
+
+MEASURE 'Measures'[Previous Billing Period Work Items] =
+    VAR LatestIndex = [Latest Selected Billing Period Index]
+    RETURN
+        CALCULATE (
+            [Work Item Count],
+            REMOVEFILTERS ( DimBillingPeriod ),
+            REMOVEFILTERS ( DimDate ),
+            DimBillingPeriod[Period Index] = LatestIndex - 1
+        )
+
+MEASURE 'Measures'[Latest Billing Period Margin %] =
+    DIVIDE ( [Latest Billing Period Business Income], [Latest Billing Period Revenue] )
+
+MEASURE 'Measures'[Previous Billing Period Margin %] =
+    DIVIDE ( [Previous Billing Period Business Income], [Previous Billing Period Revenue] )
+
+MEASURE 'Measures'[Revenue Change vs Previous Billing Period] =
+    [Latest Billing Period Revenue] - [Previous Billing Period Revenue]
+
+MEASURE 'Measures'[Revenue Change vs Previous Billing Period %] =
+    DIVIDE ( [Revenue Change vs Previous Billing Period], [Previous Billing Period Revenue] )
+
+MEASURE 'Measures'[Business Income Change vs Previous Billing Period %] =
+    DIVIDE (
+        [Latest Billing Period Business Income] - [Previous Billing Period Business Income],
+        [Previous Billing Period Business Income]
+    )
+
+MEASURE 'Measures'[Margin Change vs Previous Billing Period pp] =
+    [Latest Billing Period Margin %] - [Previous Billing Period Margin %]
+
+MEASURE 'Measures'[Work Item Change vs Previous Billing Period %] =
+    DIVIDE (
+        [Latest Billing Period Work Items] - [Previous Billing Period Work Items],
+        [Previous Billing Period Work Items]
+    )
+
+MEASURE 'Measures'[Previous Comparable Month Revenue] =
+    VAR CurrentEnd = MAX ( DimDate[Date] )
+    VAR DaysCovered = DAY ( CurrentEnd )
+    VAR PreviousMonthStart = EOMONTH ( CurrentEnd, -2 ) + 1
+    VAR PreviousComparableEnd =
+        MIN ( EOMONTH ( CurrentEnd, -1 ), PreviousMonthStart + DaysCovered - 1 )
+    RETURN
+        CALCULATE (
+            [Total Client Revenue],
+            REMOVEFILTERS ( DimDate ),
+            REMOVEFILTERS ( DimBillingPeriod ),
+            DATESBETWEEN ( DimDate[Date], PreviousMonthStart, PreviousComparableEnd )
+        )
+
+MEASURE 'Measures'[Month Revenue Change %] =
+    DIVIDE (
+        [Total Client Revenue] - [Previous Comparable Month Revenue],
+        [Previous Comparable Month Revenue]
+    )
+
+MEASURE 'Measures'[Previous Comparable Month Business Income] =
+    VAR CurrentEnd = MAX ( DimDate[Date] )
+    VAR DaysCovered = DAY ( CurrentEnd )
+    VAR PreviousMonthStart = EOMONTH ( CurrentEnd, -2 ) + 1
+    VAR PreviousComparableEnd =
+        MIN ( EOMONTH ( CurrentEnd, -1 ), PreviousMonthStart + DaysCovered - 1 )
+    RETURN
+        CALCULATE (
+            [Business Income],
+            REMOVEFILTERS ( DimDate ),
+            REMOVEFILTERS ( DimBillingPeriod ),
+            DATESBETWEEN ( DimDate[Date], PreviousMonthStart, PreviousComparableEnd )
+        )
+
+MEASURE 'Measures'[Previous Comparable Month Work Items] =
+    VAR CurrentEnd = MAX ( DimDate[Date] )
+    VAR DaysCovered = DAY ( CurrentEnd )
+    VAR PreviousMonthStart = EOMONTH ( CurrentEnd, -2 ) + 1
+    VAR PreviousComparableEnd =
+        MIN ( EOMONTH ( CurrentEnd, -1 ), PreviousMonthStart + DaysCovered - 1 )
+    RETURN
+        CALCULATE (
+            [Work Item Count],
+            REMOVEFILTERS ( DimDate ),
+            REMOVEFILTERS ( DimBillingPeriod ),
+            DATESBETWEEN ( DimDate[Date], PreviousMonthStart, PreviousComparableEnd )
+        )
+
+MEASURE 'Measures'[Previous Comparable Month Margin %] =
+    DIVIDE ( [Previous Comparable Month Business Income], [Previous Comparable Month Revenue] )
+
+MEASURE 'Measures'[Month Business Income Change %] =
+    DIVIDE (
+        [Business Income] - [Previous Comparable Month Business Income],
+        [Previous Comparable Month Business Income]
+    )
+
+MEASURE 'Measures'[Month Work Item Change %] =
+    DIVIDE (
+        [Work Item Count] - [Previous Comparable Month Work Items],
+        [Previous Comparable Month Work Items]
+    )
+
+MEASURE 'Measures'[Month Margin Change pp] =
+    [Business Margin %] - [Previous Comparable Month Margin %]
+
+MEASURE 'Measures'[Month Coverage Status] =
+    COALESCE ( SELECTEDVALUE ( DimDate[Month Coverage] ), "Mixed month coverage" )
+
+MEASURE 'Measures'[Rolling 28 Day Revenue] =
+    CALCULATE (
+        [Total Client Revenue],
+        REMOVEFILTERS ( DimBillingPeriod ),
+        DATESINPERIOD ( DimDate[Date], MAX ( DimDate[Date] ), -28, DAY )
+    )
+
+MEASURE 'Measures'[Weekend Work Item Share %] =
+    DIVIDE (
+        CALCULATE ( [Work Item Count], DimDate[Is Weekend] = TRUE () ),
+        [Work Item Count]
+    )
+
+
+// -----------------------------------------------------------------------------
+// UX block: provide filter-aware titles and concise management status text.
+// -----------------------------------------------------------------------------
+MEASURE 'Measures'[Selected Billing Period Title] =
+    "Performance | "
+        & COALESCE ( SELECTEDVALUE ( DimBillingPeriod[Billing Period] ), "All billing periods" )
+
+MEASURE 'Measures'[Selected Month Title] =
+    "Monthly performance | "
+        & COALESCE ( SELECTEDVALUE ( DimDate[Month] ), "Select one month" )
+
+MEASURE 'Measures'[Margin Status] =
+    VAR CurrentMargin = [Latest Billing Period Margin %]
+    RETURN
+        SWITCH (
+            TRUE (),
+            ISBLANK ( CurrentMargin ), "No revenue in selection",
+            CurrentMargin >= 0.40, "At or above 40%",
+            CurrentMargin >= 0.35, "Review",
+            "Margin pressure"
+        )
+
+MEASURE 'Measures'[Business Health Summary] =
+    VAR CurrentMargin = [Latest Billing Period Margin %]
+    VAR RevenueChange = [Revenue Change vs Previous Billing Period %]
+    RETURN
+        SWITCH (
+            TRUE (),
+            ISBLANK ( CurrentMargin ), "No result for the current selection",
+            CurrentMargin < 0.35 && RevenueChange < 0, "Revenue and margin both need attention",
+            CurrentMargin < 0.35, "Margin needs attention",
+            RevenueChange < 0, "Revenue is down; margin is holding",
+            "Revenue and margin are stable or improving"
+        )

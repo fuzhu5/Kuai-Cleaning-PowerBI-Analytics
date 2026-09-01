@@ -1,0 +1,80 @@
+// -----------------------------------------------------------------------------
+// Structural test block: expected counts for the published portfolio snapshot.
+// Run this query in DAX Query View after loading the public sample.
+// -----------------------------------------------------------------------------
+EVALUATE
+ROW (
+    "Work item rows", COUNTROWS ( FactWorkItem ),
+    "Work item row test", COUNTROWS ( FactWorkItem ) = 775,
+    "Unique work item keys", DISTINCTCOUNT ( FactWorkItem[Work Item Key] ),
+    "Work item key test", DISTINCTCOUNT ( FactWorkItem[Work Item Key] ) = 775,
+    "Manual entry rows", COUNTROWS ( FactManualEntry ),
+    "Manual entry row test", COUNTROWS ( FactManualEntry ) = 41,
+    "Property snapshot rows", COUNTROWS ( FactPropertyPeriodSnapshot ),
+    "Property snapshot row test", COUNTROWS ( FactPropertyPeriodSnapshot ) = 350,
+    "Distinct properties", DISTINCTCOUNT ( DimProperty[Property Key] ),
+    "Distinct property test", DISTINCTCOUNT ( DimProperty[Property Key] ) = 102
+)
+
+
+// -----------------------------------------------------------------------------
+// Financial test block: reconcile published totals to the local source profile.
+// -----------------------------------------------------------------------------
+EVALUATE
+ROW (
+    "Client revenue", [Total Client Revenue],
+    "Client revenue test", ABS ( [Total Client Revenue] - 45921.51 ) <= 0.01,
+    "Worker payout", [Total Worker Payout],
+    "Worker payout test", ABS ( [Total Worker Payout] - 27452.16 ) <= 0.01,
+    "Other cost", [Total Other Cost],
+    "Other cost test", ABS ( [Total Other Cost] - 297.94 ) <= 0.01,
+    "Business income", [Business Income],
+    "Business income test", ABS ( [Business Income] - 18171.41 ) <= 0.01,
+    "Reconciliation variance", [Financial Reconciliation Variance],
+    "Reconciliation test", ABS ( [Financial Reconciliation Variance] ) <= 0.01
+)
+
+
+// -----------------------------------------------------------------------------
+// Business test block: check worker, Client and period comparisons.
+// -----------------------------------------------------------------------------
+EVALUATE
+ROW (
+    "Active workers", [Active Worker Count],
+    "Active worker test", [Active Worker Count] = 8,
+    "Average work items per worker", [Average Work Items per Active Worker],
+    "Worker average test", ABS ( [Average Work Items per Active Worker] - 96.875 ) <= 0.001,
+    "Clients", [Client Count],
+    "Client count test", [Client Count] = 3,
+    "Latest period revenue", [Latest Billing Period Revenue],
+    "Latest period revenue test", ABS ( [Latest Billing Period Revenue] - 3160.98 ) <= 0.01,
+    "Previous period revenue", [Previous Billing Period Revenue],
+    "Previous period revenue test", ABS ( [Previous Billing Period Revenue] - 3224.51 ) <= 0.01,
+    "Latest period work items", [Latest Billing Period Work Items],
+    "Latest period work item test", [Latest Billing Period Work Items] = 58
+)
+
+
+// -----------------------------------------------------------------------------
+// Monthly test block: confirm two complete months against the Python profile.
+// -----------------------------------------------------------------------------
+EVALUATE
+VAR AprilRevenue =
+    CALCULATE (
+        [Total Client Revenue],
+        REMOVEFILTERS ( DimBillingPeriod ),
+        DATESBETWEEN ( DimDate[Date], DATE ( 2026, 4, 1 ), DATE ( 2026, 4, 30 ) )
+    )
+VAR JulyRevenue =
+    CALCULATE (
+        [Total Client Revenue],
+        REMOVEFILTERS ( DimBillingPeriod ),
+        DATESBETWEEN ( DimDate[Date], DATE ( 2026, 7, 1 ), DATE ( 2026, 7, 31 ) )
+    )
+RETURN
+    ROW (
+        "April revenue", AprilRevenue,
+        "April revenue test", ABS ( AprilRevenue - 15989.72 ) <= 0.01,
+        "July revenue", JulyRevenue,
+        "July revenue test", ABS ( JulyRevenue - 7508.00 ) <= 0.01
+    )

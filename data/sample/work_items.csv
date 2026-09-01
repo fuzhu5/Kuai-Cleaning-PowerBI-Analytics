@@ -1,0 +1,776 @@
+Billing Period Start,Billing Period End,Work Item Key,Work Item Type,Service Date,Property Key,Client,Work Category,Worker Key,Default Worker Key,Assignment Overridden,Approved Client Price,Approved Worker Price,Cost,Business Income,Pricing Status,Price Approved At,Worker Price Overridden,Ready For Billing,No Payment,Public Holiday Flag,Source File
+2026-03-30,2026-04-12,WI-0001,Job,2026-03-30,PROP-430CA5CF,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0002,Job,2026-03-30,PROP-B594FDA8,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0003,Job,2026-03-30,PROP-85C040C1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0004,Job,2026-03-30,PROP-AA45D193,Client 2,Cleaning,WRK-2E535014,WRK-2E535014,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0005,Job,2026-03-30,PROP-DAB50113,Client 2,Cleaning,WRK-E7E0BC96,WRK-2E535014,true,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0006,Job,2026-03-30,PROP-01FBB1D1,Client 2,Key handling,WRK-2E535014,WRK-2E535014,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0007,Job,2026-03-30,PROP-2E327A6F,Client 2,Key handling,WRK-2E535014,WRK-2E535014,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0008,Job,2026-03-30,PROP-43D9B9CC,Client 2,Cleaning,WRK-E7E0BC96,WRK-2E535014,true,212.00,147.50,0.00,64.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0009,Job,2026-03-30,PROP-7BD057D4,Client 2,Cleaning,WRK-E7E0BC96,WRK-2E535014,true,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0010,Job,2026-03-31,PROP-BFCFD3F1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0011,Job,2026-03-31,PROP-507559B2,Client 1,Inspection,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0012,Job,2026-04-01,PROP-F52FE8B4,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0013,Job,2026-04-01,PROP-28A7A972,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0014,Job,2026-04-01,PROP-61FE70F2,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0015,Job,2026-04-01,PROP-BED38869,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,52.50,35.00,0.00,17.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0016,Job,2026-04-01,PROP-15C4B2C1,Client 2,Cleaning,WRK-E7E0BC96,WRK-2E535014,true,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0017,Job,2026-04-01,PROP-7BD057D4,Client 2,Cleaning,WRK-E7E0BC96,WRK-2E535014,true,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0018,Job,2026-04-02,PROP-B594FDA8,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0019,Job,2026-04-02,PROP-85C040C1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0020,Job,2026-04-02,PROP-258C656D,Client 2,Cleaning,WRK-2E535014,WRK-2E535014,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0021,Job,2026-04-02,PROP-2CAD9A11,Client 2,Cleaning,WRK-2E535014,WRK-2E535014,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0022,Job,2026-04-02,PROP-D1ADDF45,Client 2,Key handling,WRK-2E535014,WRK-2E535014,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0023,Job,2026-04-02,PROP-D98A0A34,Client 2,Cleaning,WRK-2E535014,WRK-2E535014,false,89.50,55.00,0.00,34.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0024,Job,2026-04-03,PROP-0231885B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,93.75,40.00,0.00,53.75,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0025,Job,2026-04-03,PROP-16FD8C17,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,78.75,40.00,0.00,38.75,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0026,Job,2026-04-03,PROP-61FE70F2,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,78.75,40.00,0.00,38.75,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0027,Job,2026-04-03,PROP-7BD057D4,Client 2,Cleaning,WRK-E7E0BC96,WRK-2E535014,true,99.75,40.00,0.00,59.75,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0028,Job,2026-04-03,PROP-C498828E,Client 2,Cleaning,WRK-E7E0BC96,WRK-2E535014,true,104.25,45.00,0.00,59.25,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0029,Job,2026-04-03,PROP-15C4B2C1,Client 2,Cleaning,WRK-E7E0BC96,WRK-2E535014,true,99.75,45.00,0.00,54.75,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0030,Job,2026-04-04,PROP-28A7A972,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,78.75,40.00,0.00,38.75,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0031,Job,2026-04-04,PROP-85C040C1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,68.25,35.00,0.00,33.25,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0032,Job,2026-04-04,PROP-D98A0A34,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,89.25,40.00,0.00,49.25,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0033,Job,2026-04-04,PROP-79B22870,Client 2,Key handling,WRK-99159EBC,WRK-2E535014,true,68.25,35.00,0.00,33.25,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0034,Job,2026-04-04,PROP-4CB595E7,Client 2,Cleaning,WRK-2E535014,WRK-2E535014,false,89.25,45.00,0.00,44.25,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0035,Job,2026-04-04,PROP-0D27E5AE,Client 2,Key handling,WRK-2E535014,WRK-2E535014,false,225.75,83.50,0.00,142.25,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0036,Job,2026-04-04,PROP-5CD4E94B,Client 2,Key handling,WRK-99159EBC,WRK-2E535014,true,89.25,35.00,0.00,54.25,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0037,Job,2026-04-05,PROP-16FD8C17,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,78.75,40.00,0.00,38.75,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0038,Job,2026-04-05,PROP-0231885B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,93.75,40.00,0.00,53.75,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0039,Job,2026-04-05,PROP-C498828E,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,104.25,45.00,0.00,59.25,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0040,Job,2026-04-05,PROP-430CA5CF,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,89.25,40.00,0.00,49.25,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0041,Job,2026-04-05,PROP-7BD057D4,Client 2,Cleaning,WRK-95B7F5D5,WRK-2E535014,true,99.75,40.00,0.00,59.75,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0042,Job,2026-04-05,PROP-D1ADDF45,Client 2,Key handling,WRK-2E535014,WRK-2E535014,false,68.25,35.00,0.00,33.25,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0043,Job,2026-04-05,PROP-507559B2,Client 2,Inspection,WRK-2E535014,WRK-2E535014,false,78.75,40.00,0.00,38.75,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0044,Job,2026-04-05,PROP-3D870726,Client 2,Cleaning,WRK-2E535014,WRK-2E535014,false,68.25,35.00,0.00,33.25,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0045,Job,2026-04-05,PROP-258C656D,Client 2,Cleaning,WRK-95B7F5D5,WRK-2E535014,true,93.75,40.00,0.00,53.75,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0046,Job,2026-04-06,PROP-167D930B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,89.25,45.00,0.00,44.25,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0047,Job,2026-04-06,PROP-15C4B2C1,Client 2,Cleaning,WRK-2E535014,WRK-2E535014,false,99.75,45.00,0.00,54.75,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0048,Job,2026-04-06,PROP-F52FE8B4,Client 2,Cleaning,WRK-2E535014,WRK-2E535014,false,89.25,45.00,0.00,44.25,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0049,Job,2026-04-06,PROP-2E327A6F,Client 2,Key handling,WRK-2E535014,WRK-2E535014,false,78.75,40.00,0.00,38.75,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0050,Job,2026-04-06,PROP-D98A0A34,Client 2,Cleaning,WRK-2E535014,WRK-2E535014,false,89.25,40.00,0.00,49.25,quoted,,false,true,false,true,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0051,Job,2026-04-07,PROP-B594FDA8,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,73.50,60.00,0.00,13.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0052,Job,2026-04-07,PROP-38676AB9,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0053,Job,2026-04-07,PROP-16FD8C17,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0054,Job,2026-04-07,PROP-FC154A3F,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0055,Job,2026-04-07,PROP-61FE70F2,Client 2,Key handling,WRK-95B7F5D5,WRK-2E535014,true,102.50,40.00,0.00,62.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0056,Job,2026-04-07,PROP-28A7A972,Client 2,Cleaning,WRK-E7E0BC96,WRK-2E535014,true,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0057,Job,2026-04-07,PROP-2CFAA8CA,Client 2,Key handling,WRK-E7E0BC96,WRK-2E535014,true,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0058,Job,2026-04-07,PROP-AA45D193,Client 2,Cleaning,WRK-E7E0BC96,WRK-2E535014,true,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0059,Job,2026-04-07,PROP-01FBB1D1,Client 2,Key handling,WRK-14C3AB0D,WRK-2E535014,true,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0060,Job,2026-04-07,PROP-DAB50113,Client 2,Cleaning,WRK-E7E0BC96,WRK-2E535014,true,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0061,Job,2026-04-07,PROP-086BBC52,Client 2,Key handling,WRK-14C3AB0D,WRK-2E535014,true,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0062,Job,2026-04-07,PROP-21A6A97C,Client 2,Cleaning,WRK-95B7F5D5,WRK-2E535014,true,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0063,Job,2026-04-08,PROP-507559B2,Client 1,Inspection,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0064,Job,2026-04-08,PROP-BFCFD3F1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0065,Job,2026-04-08,PROP-0231885B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0066,Job,2026-04-08,PROP-7BD057D4,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0067,Job,2026-04-09,PROP-61FE70F2,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0068,Job,2026-04-09,PROP-60C27B2C,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0069,Job,2026-04-10,PROP-167D930B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0070,Job,2026-04-10,PROP-2E04A5DE,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,67.50,40.00,0.00,27.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0071,Job,2026-04-10,PROP-16FD8C17,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0072,Job,2026-04-10,PROP-15C4B2C1,Client 2,Cleaning,WRK-99159EBC,WRK-2E535014,true,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0073,Job,2026-04-10,PROP-2CAD9A11,Client 2,Cleaning,WRK-99159EBC,WRK-2E535014,true,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0074,Job,2026-04-10,PROP-D1ADDF45,Client 2,Key handling,WRK-99159EBC,WRK-2E535014,true,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0075,Job,2026-04-10,PROP-7BD057D4,Client 2,Cleaning,WRK-95B7F5D5,WRK-2E535014,true,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0076,Job,2026-04-10,PROP-507559B2,Client 3,Inspection,WRK-E7E0BC96,WRK-E7E0BC96,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0077,Job,2026-04-10,PROP-43D9B9CC,Client 3,Cleaning,WRK-E7E0BC96,WRK-E7E0BC96,false,100.00,67.50,0.00,32.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0078,Job,2026-04-12,PROP-FC154A3F,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0079,Job,2026-04-12,PROP-38676AB9,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0080,Job,2026-04-12,PROP-16FD8C17,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0081,Job,2026-04-12,PROP-507559B2,Client 2,Inspection,WRK-99159EBC,WRK-2E535014,true,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0082,Job,2026-04-12,PROP-85C040C1,Client 2,Key handling,WRK-99159EBC,WRK-2E535014,true,80.50,55.00,0.00,25.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0083,Job,2026-04-12,PROP-61FE70F2,Client 2,Key handling,WRK-95B7F5D5,WRK-2E535014,true,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0084,Job,2026-04-12,PROP-D1ADDF45,Client 2,Key handling,WRK-99159EBC,WRK-2E535014,true,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0085,Job,2026-04-12,PROP-F52FE8B4,Client 2,Cleaning,WRK-95B7F5D5,WRK-2E535014,true,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0086,Job,2026-04-12,PROP-258C656D,Client 3,Cleaning,WRK-E7E0BC96,WRK-E7E0BC96,false,104.50,70.00,0.00,34.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0087,Job,2026-04-12,PROP-2E327A6F,Client 3,Key handling,WRK-E7E0BC96,WRK-E7E0BC96,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-03-30,2026-04-12,WI-0088,Job,2026-04-12,PROP-7BD057D4,Client 3,Cleaning,WRK-E7E0BC96,WRK-E7E0BC96,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_01.csv
+2026-04-13,2026-04-26,WI-0089,Job,2026-04-13,PROP-60C27B2C,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0090,Job,2026-04-13,PROP-B594FDA8,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0091,Job,2026-04-13,PROP-0231885B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0092,Job,2026-04-13,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0093,Job,2026-04-13,PROP-BFCFD3F1,Client 2,Key handling,WRK-99159EBC,WRK-95B7F5D5,true,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0094,Job,2026-04-13,PROP-2CFAA8CA,Client 2,Key handling,WRK-95B7F5D5,WRK-95B7F5D5,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0095,Job,2026-04-13,PROP-28A7A972,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0096,Job,2026-04-13,PROP-430CA5CF,Client 2,Key handling,WRK-99159EBC,WRK-95B7F5D5,true,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0097,Job,2026-04-13,PROP-167D930B,Client 2,Cleaning,WRK-99159EBC,WRK-95B7F5D5,true,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0098,Job,2026-04-13,PROP-43D9B9CC,Client 3,Cleaning,WRK-E7E0BC96,WRK-99159EBC,true,100.00,67.50,0.00,32.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0099,Job,2026-04-13,PROP-D98A0A34,Client 3,Cleaning,WRK-E7E0BC96,WRK-99159EBC,true,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0100,Job,2026-04-14,PROP-F75AF396,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0101,Job,2026-04-14,PROP-507559B2,Client 1,Inspection,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0102,Job,2026-04-14,PROP-2476444F,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,72.50,40.00,0.00,32.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0103,Job,2026-04-14,PROP-85C040C1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0104,Job,2026-04-14,PROP-AA45D193,Client 2,Cleaning,WRK-99159EBC,WRK-95B7F5D5,true,69.50,35.00,0.00,34.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0105,Job,2026-04-14,PROP-2CAD9A11,Client 2,Cleaning,WRK-99159EBC,WRK-95B7F5D5,true,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0106,Job,2026-04-14,PROP-7EEC7537,Client 3,Key handling,WRK-2E535014,WRK-99159EBC,true,94.50,67.50,0.00,27.00,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0107,Job,2026-04-15,PROP-21A6A97C,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0108,Job,2026-04-15,PROP-BED38869,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,52.50,35.00,0.00,17.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0109,Job,2026-04-15,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,73.50,40.00,0.00,33.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0110,Job,2026-04-15,PROP-086BBC52,Client 2,Key handling,WRK-99159EBC,WRK-95B7F5D5,true,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0111,Job,2026-04-16,PROP-43D8BE16,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0112,Job,2026-04-16,PROP-7BD057D4,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0113,Job,2026-04-16,PROP-28A7A972,Client 2,Cleaning,WRK-99159EBC,WRK-95B7F5D5,true,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0114,Job,2026-04-16,PROP-D98A0A34,Client 2,Cleaning,WRK-99159EBC,WRK-95B7F5D5,true,109.50,70.00,0.00,39.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0115,Job,2026-04-17,PROP-8F424ACA,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0116,Job,2026-04-17,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0117,Job,2026-04-17,PROP-430CA5CF,Client 1,Key handling,WRK-99159EBC,WRK-DD63004A,true,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0118,Job,2026-04-17,PROP-3669A2DD,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,52.50,35.00,0.00,17.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0119,Job,2026-04-17,PROP-15C4B2C1,Client 1,Cleaning,WRK-99159EBC,WRK-DD63004A,true,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0120,Job,2026-04-17,PROP-61FE70F2,Client 2,Key handling,WRK-95B7F5D5,WRK-95B7F5D5,false,94.50,70.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0121,Job,2026-04-17,PROP-F52FE8B4,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0122,Job,2026-04-17,PROP-01FBB1D1,Client 3,Key handling,WRK-2E535014,WRK-99159EBC,true,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0123,Job,2026-04-18,PROP-0617E567,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,139.50,105.00,0.00,34.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0124,Job,2026-04-18,PROP-E153285B,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0125,Job,2026-04-18,PROP-28A7A972,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0126,Job,2026-04-18,PROP-7BD057D4,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0127,Job,2026-04-18,PROP-D1ADDF45,Client 3,Key handling,WRK-2E535014,WRK-99159EBC,true,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0128,Job,2026-04-19,PROP-0231885B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0129,Job,2026-04-19,PROP-B594FDA8,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0130,Job,2026-04-19,PROP-38676AB9,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0131,Job,2026-04-19,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0132,Job,2026-04-19,PROP-8F424ACA,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0133,Job,2026-04-19,PROP-D98A0A34,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,63.90,40.00,4.40,19.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0134,Job,2026-04-19,PROP-2CFAA8CA,Client 2,Key handling,WRK-95B7F5D5,WRK-95B7F5D5,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0135,Job,2026-04-19,PROP-61FE70F2,Client 2,Key handling,WRK-95B7F5D5,WRK-95B7F5D5,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0136,Job,2026-04-19,PROP-507559B2,Client 2,Standard service,WRK-99159EBC,WRK-95B7F5D5,true,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0137,Job,2026-04-19,PROP-AA45D193,Client 2,Cleaning,WRK-99159EBC,WRK-95B7F5D5,true,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0138,Job,2026-04-19,PROP-85C040C1,Client 2,Key handling,WRK-99159EBC,WRK-95B7F5D5,true,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0139,Job,2026-04-19,PROP-2476444F,Client 3,Key handling,WRK-2E535014,WRK-99159EBC,true,72.50,40.00,0.00,32.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0140,Job,2026-04-20,PROP-167D930B,Client 1,Cleaning,WRK-99159EBC,WRK-DD63004A,true,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0141,Job,2026-04-20,PROP-BFCFD3F1,Client 1,Key handling,WRK-99159EBC,WRK-DD63004A,true,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0142,Job,2026-04-20,PROP-430CA5CF,Client 1,Key handling,WRK-99159EBC,WRK-DD63004A,true,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0143,Job,2026-04-20,PROP-FC154A3F,Client 1,Key handling,WRK-99159EBC,WRK-DD63004A,true,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0144,Job,2026-04-20,PROP-FECE1865,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0145,Job,2026-04-20,PROP-7BD057D4,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0146,Job,2026-04-20,PROP-3D870726,Client 3,Cleaning,WRK-2E535014,WRK-99159EBC,true,54.30,35.00,8.80,10.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0147,Job,2026-04-20,PROP-DAB50113,Client 3,Cleaning,WRK-2E535014,WRK-99159EBC,true,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0148,Job,2026-04-20,PROP-086BBC52,Client 3,Key handling,WRK-2E535014,WRK-99159EBC,true,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0149,Job,2026-04-21,PROP-16FD8C17,Client 1,Cleaning,WRK-99159EBC,WRK-DD63004A,true,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0150,Job,2026-04-21,PROP-85C040C1,Client 1,Key handling,WRK-99159EBC,WRK-DD63004A,true,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0151,Job,2026-04-21,PROP-258C656D,Client 1,Cleaning,WRK-99159EBC,WRK-DD63004A,true,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0152,Job,2026-04-21,PROP-F75AF396,Client 1,Cleaning,WRK-99159EBC,WRK-DD63004A,true,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0153,Job,2026-04-21,PROP-28A7A972,Client 3,Cleaning,WRK-2E535014,WRK-99159EBC,true,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0154,Job,2026-04-21,PROP-01FBB1D1,Client 3,Key handling,WRK-2E535014,WRK-99159EBC,true,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0155,Job,2026-04-21,PROP-F52FE8B4,Client 3,Cleaning,WRK-2E535014,WRK-99159EBC,true,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0156,Job,2026-04-22,PROP-61FE70F2,Client 1,Key handling,WRK-99159EBC,WRK-DD63004A,true,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0157,Job,2026-04-23,PROP-7BD057D4,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,108.50,40.00,0.00,68.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0158,Job,2026-04-23,PROP-707C236E,Client 1,Standard service,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0159,Job,2026-04-23,PROP-15C4B2C1,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0160,Job,2026-04-24,PROP-8F424ACA,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0161,Job,2026-04-24,PROP-E153285B,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0162,Job,2026-04-24,PROP-D98A0A34,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0163,Job,2026-04-24,PROP-43D9B9CC,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,100.00,67.50,0.00,32.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0164,Job,2026-04-25,PROP-B594FDA8,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0165,Job,2026-04-25,PROP-0D443B6C,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0166,Job,2026-04-25,PROP-4DAF268D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,136.50,40.00,0.00,96.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0167,Job,2026-04-25,PROP-61FE70F2,Client 2,Key handling,WRK-95B7F5D5,WRK-95B7F5D5,false,73.50,50.00,0.00,23.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0168,Job,2026-04-25,PROP-28A7A972,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0169,Job,2026-04-25,PROP-507559B2,Client 3,Standard service,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0170,Job,2026-04-25,PROP-85C040C1,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,80.50,55.00,0.00,25.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0171,Job,2026-04-26,PROP-0A509508,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,70.50,50.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0172,Job,2026-04-26,PROP-16FD8C17,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0173,Job,2026-04-26,PROP-0617E567,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0174,Job,2026-04-26,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0175,Job,2026-04-26,PROP-2CAD9A11,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,97.50,60.00,0.00,37.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0176,Job,2026-04-26,PROP-15C4B2C1,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0177,Job,2026-04-26,PROP-258C656D,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0178,Job,2026-04-26,PROP-38676AB9,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0179,Job,2026-04-26,PROP-F75AF396,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0180,Job,2026-04-26,PROP-F52FE8B4,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-13,2026-04-26,WI-0181,Job,2026-04-26,PROP-FC154A3F,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_02.csv
+2026-04-27,2026-05-10,WI-0182,Job,2026-04-27,PROP-430CA5CF,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0183,Job,2026-04-27,PROP-DAB50113,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0184,Job,2026-04-27,PROP-21A6A97C,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0185,Job,2026-04-27,PROP-8F424ACA,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0186,Job,2026-04-27,PROP-7BD057D4,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,108.50,70.00,0.00,38.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0187,Job,2026-04-27,PROP-28A7A972,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0188,Job,2026-04-27,PROP-43D9B9CC,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,100.00,67.50,0.00,32.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0189,Job,2026-04-27,PROP-D98A0A34,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,80.50,55.00,0.00,25.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0190,Job,2026-04-27,PROP-85C040C1,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0191,Job,2026-04-27,PROP-507559B2,Client 3,Standard service,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0192,Job,2026-04-28,PROP-2CFAA8CA,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0193,Job,2026-04-28,PROP-AA45D193,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0194,Job,2026-04-28,PROP-61FE70F2,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0195,Job,2026-04-28,PROP-D8248E85,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0196,Job,2026-04-29,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0197,Job,2026-04-29,PROP-BED38869,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,52.50,35.00,0.00,17.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0198,Job,2026-04-29,PROP-167D930B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0199,Job,2026-04-29,PROP-7BD057D4,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0200,Job,2026-04-29,PROP-D98A0A34,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0201,Job,2026-04-30,PROP-BFCFD3F1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0202,Job,2026-04-30,PROP-4DAF268D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,57.77,40.00,5.27,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0203,Job,2026-04-30,PROP-BB4737D7,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0204,Job,2026-05-01,PROP-CFDA1271,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,48.09,30.00,8.09,10.00,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0205,Job,2026-05-01,PROP-D98A0A34,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0206,Job,2026-05-01,PROP-B594FDA8,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0207,Job,2026-05-01,PROP-61FE70F2,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0208,Job,2026-05-02,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0209,Job,2026-05-02,PROP-43D8BE16,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0210,Job,2026-05-02,PROP-16FD8C17,Client 1,Cleaning,,WRK-DD63004A,false,52.50,0.00,0.00,52.50,job-business,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0211,Job,2026-05-02,PROP-8F424ACA,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0212,Job,2026-05-02,PROP-7BD057D4,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0213,Job,2026-05-02,PROP-15C4B2C1,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0214,Job,2026-05-02,PROP-3669A2DD,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,35.00,0.00,17.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0215,Job,2026-05-02,PROP-85C040C1,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0216,Job,2026-05-03,PROP-430CA5CF,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0217,Job,2026-05-03,PROP-B594FDA8,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0218,Job,2026-05-03,PROP-C498828E,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,153.50,105.00,0.00,48.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0219,Job,2026-05-03,PROP-167D930B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0220,Job,2026-05-03,PROP-61FE70F2,Client 2,Key handling,WRK-95B7F5D5,WRK-95B7F5D5,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0221,Job,2026-05-03,PROP-FECE1865,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,0.00,0.00,0.00,0.00,job-no-payment,,false,true,true,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0222,Job,2026-05-03,PROP-F75AF396,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0223,Job,2026-05-04,PROP-FC154A3F,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0224,Job,2026-05-04,PROP-BFCFD3F1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0225,Job,2026-05-04,PROP-38676AB9,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0226,Job,2026-05-04,PROP-4DAF268D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0227,Job,2026-05-04,PROP-15C4B2C1,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0228,Job,2026-05-04,PROP-7BD057D4,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0229,Job,2026-05-04,PROP-D8248E85,Client 2,Key handling,WRK-95B7F5D5,WRK-95B7F5D5,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0230,Job,2026-05-04,PROP-D98A0A34,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0231,Job,2026-05-04,PROP-DAB50113,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0232,Job,2026-05-04,PROP-85C040C1,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,48.58,35.00,3.08,10.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0233,Job,2026-05-04,PROP-507559B2,Client 3,Standard service,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0234,Job,2026-05-04,PROP-28A7A972,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0235,Job,2026-05-05,PROP-0231885B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0236,Job,2026-05-05,PROP-AA45D193,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0237,Job,2026-05-05,PROP-43D9B9CC,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,100.00,100.00,0.00,0.00,quoted,,true,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0238,Job,2026-05-05,PROP-61FE70F2,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0239,Job,2026-05-05,PROP-21A6A97C,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0240,Job,2026-05-06,PROP-B594FDA8,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0241,Job,2026-05-06,PROP-F75AF396,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0242,Job,2026-05-06,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0243,Job,2026-05-06,PROP-7BD057D4,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0244,Job,2026-05-06,PROP-85C040C1,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0245,Job,2026-05-06,PROP-507559B2,Client 3,Standard service,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0246,Job,2026-05-07,PROP-0A509508,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0247,Job,2026-05-07,PROP-15C4B2C1,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0248,Job,2026-05-07,PROP-D98A0A34,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0249,Job,2026-05-08,PROP-8F424ACA,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0250,Job,2026-05-08,PROP-0231885B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0251,Job,2026-05-08,PROP-F75AF396,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0252,Job,2026-05-08,PROP-7BD057D4,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0253,Job,2026-05-08,PROP-2E327A6F,Client 2,Key handling,WRK-95B7F5D5,WRK-95B7F5D5,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0254,Job,2026-05-08,PROP-61FE70F2,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0255,Job,2026-05-08,PROP-28A7A972,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0256,Job,2026-05-09,PROP-15C4B2C1,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0257,Job,2026-05-09,PROP-16FD8C17,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0258,Job,2026-05-09,PROP-2CAD9A11,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0259,Job,2026-05-10,PROP-F75AF396,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0260,Job,2026-05-10,PROP-CFDA1271,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,40.00,30.00,0.00,10.00,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0261,Job,2026-05-10,PROP-38676AB9,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0262,Job,2026-05-10,PROP-D98A0A34,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0263,Job,2026-05-10,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0264,Job,2026-05-10,PROP-AA45D193,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-04-27,2026-05-10,WI-0265,Job,2026-05-10,PROP-D8248E85,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_03.csv
+2026-05-11,2026-05-24,WI-0266,Job,2026-05-11,PROP-846525D0,Client 1,Standard service,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0267,Job,2026-05-11,PROP-430CA5CF,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0268,Job,2026-05-11,PROP-8F424ACA,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0269,Job,2026-05-11,PROP-43D8BE16,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,50.12,35.00,0.00,15.12,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0270,Job,2026-05-11,PROP-61FE70F2,Client 2,Key handling,WRK-95B7F5D5,WRK-95B7F5D5,false,66.50,50.00,0.00,16.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0271,Job,2026-05-11,PROP-28A7A972,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0272,Job,2026-05-11,PROP-507559B2,Client 2,Standard service,WRK-95B7F5D5,WRK-95B7F5D5,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0273,Job,2026-05-11,PROP-15C4B2C1,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0274,Job,2026-05-11,PROP-7BD057D4,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0275,Job,2026-05-11,PROP-85C040C1,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0276,Job,2026-05-12,PROP-BFCFD3F1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0277,Job,2026-05-12,PROP-16FD8C17,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0278,Job,2026-05-12,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0279,Job,2026-05-12,PROP-B594FDA8,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0280,Job,2026-05-12,PROP-D98A0A34,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0281,Job,2026-05-13,PROP-15C4B2C1,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0282,Job,2026-05-13,PROP-F75AF396,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0283,Job,2026-05-13,PROP-85C040C1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0284,Job,2026-05-14,PROP-0A509508,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0285,Job,2026-05-14,PROP-61FE70F2,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0286,Job,2026-05-14,PROP-BB4737D7,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0287,Job,2026-05-14,PROP-258C656D,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0288,Job,2026-05-14,PROP-7BD057D4,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0289,Job,2026-05-15,PROP-8F424ACA,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0290,Job,2026-05-15,PROP-16FD8C17,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0291,Job,2026-05-15,PROP-430CA5CF,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0292,Job,2026-05-15,PROP-F52FE8B4,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0293,Job,2026-05-15,PROP-D98A0A34,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0294,Job,2026-05-15,PROP-2E327A6F,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,101.50,70.00,0.00,31.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0295,Job,2026-05-16,PROP-FECE1865,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0296,Job,2026-05-16,PROP-2476444F,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,72.50,40.00,0.00,32.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0297,Job,2026-05-16,PROP-85C040C1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0298,Job,2026-05-16,PROP-28A7A972,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0299,Job,2026-05-17,PROP-167D930B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0300,Job,2026-05-17,PROP-F75AF396,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0301,Job,2026-05-17,PROP-B594FDA8,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0302,Job,2026-05-17,PROP-430CA5CF,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0303,Job,2026-05-17,PROP-23B08CAD,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0304,Job,2026-05-17,PROP-D8248E85,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0305,Job,2026-05-17,PROP-D98A0A34,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,80.50,50.00,0.00,30.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0306,Job,2026-05-17,PROP-61FE70F2,Client 2,Key handling,WRK-95B7F5D5,WRK-95B7F5D5,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0307,Job,2026-05-17,PROP-F52FE8B4,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0308,Job,2026-05-17,PROP-15C4B2C1,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0309,Job,2026-05-17,PROP-AA45D193,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0310,Job,2026-05-17,PROP-7BD057D4,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0311,Job,2026-05-18,PROP-FC154A3F,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0312,Job,2026-05-18,PROP-8F424ACA,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0313,Job,2026-05-18,PROP-BFCFD3F1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0314,Job,2026-05-18,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0315,Job,2026-05-18,PROP-2A4ECCC4,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,74.50,50.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0316,Job,2026-05-18,PROP-DAB50113,Client 2,Cleaning,WRK-ED6E25ED,WRK-ED6E25ED,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0317,Job,2026-05-18,PROP-28A7A972,Client 2,Cleaning,WRK-ED6E25ED,WRK-ED6E25ED,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0318,Job,2026-05-18,PROP-2476444F,Client 2,Key handling,WRK-ED6E25ED,WRK-ED6E25ED,false,72.50,40.00,0.00,32.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0319,Job,2026-05-18,PROP-C498828E,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0320,Job,2026-05-18,PROP-2CAD9A11,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0321,Job,2026-05-18,PROP-2E327A6F,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0322,Job,2026-05-18,PROP-85C040C1,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0323,Job,2026-05-18,PROP-258C656D,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,102.50,20.00,0.00,82.50,quoted,,true,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0324,Job,2026-05-18,PROP-43D9B9CC,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,100.00,67.50,0.00,32.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0325,Job,2026-05-19,PROP-D98A0A34,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0326,Job,2026-05-19,PROP-61FE70F2,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0327,Job,2026-05-20,PROP-7BD057D4,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0328,Job,2026-05-20,PROP-0231885B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0329,Job,2026-05-20,PROP-85C040C1,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0330,Job,2026-05-20,PROP-507559B2,Client 3,Standard service,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0331,Job,2026-05-21,PROP-0A509508,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0332,Job,2026-05-21,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0333,Job,2026-05-21,PROP-F75AF396,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0334,Job,2026-05-21,PROP-61FE70F2,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0335,Job,2026-05-21,PROP-43D9B9CC,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,100.00,67.50,0.00,32.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0336,Job,2026-05-21,PROP-15C4B2C1,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,87.50,60.00,0.00,27.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0337,Job,2026-05-22,PROP-8F424ACA,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0338,Job,2026-05-22,PROP-16FD8C17,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0339,Job,2026-05-22,PROP-F3FD8F46,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0340,Job,2026-05-22,PROP-2A4ECCC4,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,74.50,50.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0341,Job,2026-05-23,PROP-CFDA1271,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,40.00,30.00,0.00,10.00,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0342,Job,2026-05-23,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0343,Job,2026-05-23,PROP-28A7A972,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0344,Job,2026-05-23,PROP-2E327A6F,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0345,Job,2026-05-23,PROP-D98A0A34,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0346,Job,2026-05-24,PROP-60C27B2C,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0347,Job,2026-05-24,PROP-F75AF396,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0348,Job,2026-05-24,PROP-167D930B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0349,Job,2026-05-24,PROP-38676AB9,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0350,Job,2026-05-24,PROP-B594FDA8,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0351,Job,2026-05-24,PROP-2A4ECCC4,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,74.50,50.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0352,Job,2026-05-24,PROP-15C4B2C1,Client 2,Cleaning,WRK-ED6E25ED,WRK-ED6E25ED,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0353,Job,2026-05-24,PROP-BB4737D7,Client 2,Cleaning,,WRK-ED6E25ED,false,50.50,0.00,0.00,50.50,job-business,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0354,Job,2026-05-24,PROP-DAB50113,Client 2,Cleaning,WRK-ED6E25ED,WRK-ED6E25ED,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0355,Job,2026-05-24,PROP-7BD057D4,Client 2,Cleaning,WRK-ED6E25ED,WRK-ED6E25ED,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0356,Job,2026-05-24,PROP-61FE70F2,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0357,Job,2026-05-24,PROP-C498828E,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0358,Job,2026-05-24,PROP-FECE1865,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-11,2026-05-24,WI-0359,Job,2026-05-24,PROP-85C040C1,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_04.csv
+2026-05-25,2026-06-07,WI-0360,Job,2026-05-25,PROP-8F424ACA,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0361,Job,2026-05-25,PROP-FC154A3F,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0362,Job,2026-05-25,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0363,Job,2026-05-25,PROP-16FD8C17,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0364,Job,2026-05-25,PROP-D98A0A34,Client 2,Cleaning,WRK-ED6E25ED,WRK-ED6E25ED,false,0.00,0.00,0.00,0.00,job-no-payment,,false,true,true,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0365,Job,2026-05-25,PROP-28A7A972,Client 2,Cleaning,WRK-ED6E25ED,WRK-ED6E25ED,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0366,Job,2026-05-25,PROP-2476444F,Client 2,Key handling,WRK-ED6E25ED,WRK-ED6E25ED,false,72.50,40.00,0.00,32.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0367,Job,2026-05-25,PROP-430CA5CF,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0368,Job,2026-05-25,PROP-AA45D193,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0369,Job,2026-05-26,PROP-43D8BE16,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0370,Job,2026-05-27,PROP-BFCFD3F1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0371,Job,2026-05-28,PROP-0A509508,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0372,Job,2026-05-29,PROP-846525D0,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0373,Job,2026-05-31,PROP-167D930B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0374,Job,2026-05-31,PROP-B594FDA8,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0375,Job,2026-05-31,PROP-4DAF268D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0376,Job,2026-05-31,PROP-0617E567,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0377,Job,2026-05-31,PROP-38676AB9,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0378,Job,2026-06-01,PROP-FC154A3F,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0379,Job,2026-06-01,PROP-8F424ACA,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0380,Job,2026-06-01,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0381,Job,2026-06-01,PROP-BFCFD3F1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0382,Job,2026-06-02,PROP-F75AF396,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0383,Job,2026-06-04,PROP-2A4ECCC4,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,74.50,50.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0384,Job,2026-06-05,PROP-167D930B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0385,Job,2026-06-05,PROP-CFDA1271,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,61.00,30.00,0.00,31.00,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0386,Job,2026-06-06,PROP-85C040C1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0387,Job,2026-06-06,PROP-507559B2,Client 1,Standard service,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0388,Job,2026-06-06,PROP-28A7A972,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0389,Job,2026-06-07,PROP-846525D0,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0390,Job,2026-06-07,PROP-8F424ACA,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0391,Job,2026-06-07,PROP-B594FDA8,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0392,Job,2026-06-07,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0393,Job,2026-06-07,PROP-F75AF396,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-05-25,2026-06-07,WI-0394,Job,2026-06-07,PROP-BFCFD3F1,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,90.50,55.00,0.00,35.50,quoted,,false,true,false,false,jobs_period_05.csv
+2026-06-08,2026-06-21,WI-0395,Job,2026-06-08,PROP-60C27B2C,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0396,Job,2026-06-08,PROP-FC154A3F,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0397,Job,2026-06-08,PROP-167D930B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0398,Job,2026-06-08,PROP-F3FD8F46,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0399,Job,2026-06-08,PROP-2A4ECCC4,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,74.50,50.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0400,Job,2026-06-09,PROP-F75AF396,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0401,Job,2026-06-09,PROP-8F424ACA,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0402,Job,2026-06-09,PROP-0617E567,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0403,Job,2026-06-09,PROP-B594FDA8,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0404,Job,2026-06-09,PROP-BFCFD3F1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0405,Job,2026-06-10,PROP-4DAF268D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0406,Job,2026-06-12,PROP-F75AF396,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0407,Job,2026-06-13,PROP-B594FDA8,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0408,Job,2026-06-13,PROP-2A4ECCC4,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,74.50,50.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0409,Job,2026-06-13,PROP-DA79631D,Client 3,Cleaning,,,false,61.30,0.00,8.80,52.50,job-business,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0410,Job,2026-06-14,PROP-167D930B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0411,Job,2026-06-14,PROP-4DAF268D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0412,Job,2026-06-14,PROP-BFCFD3F1,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0413,Job,2026-06-14,PROP-43D8BE16,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0414,Job,2026-06-15,PROP-F75AF396,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0415,Job,2026-06-15,PROP-2A4ECCC4,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,74.50,50.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0416,Job,2026-06-15,PROP-38676AB9,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0417,Job,2026-06-16,PROP-FC154A3F,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0418,Job,2026-06-18,PROP-F75AF396,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0419,Job,2026-06-18,PROP-4DAF268D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0420,Job,2026-06-19,PROP-B594FDA8,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0421,Job,2026-06-20,PROP-CFDA1271,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,40.00,30.00,0.00,10.00,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0422,Job,2026-06-20,PROP-DA79631D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0423,Job,2026-06-20,PROP-43D8BE16,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0424,Job,2026-06-21,PROP-DF9FFABC,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,65.50,45.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0425,Job,2026-06-21,PROP-8F424ACA,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0426,Job,2026-06-21,PROP-F3FD8F46,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0427,Job,2026-06-21,PROP-2A4ECCC4,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,83.30,50.00,8.80,24.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0428,Job,2026-06-21,PROP-4DAF268D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,61.30,40.00,8.80,12.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0429,Job,2026-06-21,PROP-38676AB9,Client 2,Cleaning,WRK-DD63004A,WRK-DD63004A,false,99.50,45.00,0.00,54.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0430,Job,2026-06-21,PROP-BFCFD3F1,Client 2,Key handling,WRK-DD63004A,WRK-DD63004A,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-08,2026-06-21,WI-0431,Job,2026-06-21,PROP-430CA5CF,Client 2,Key handling,WRK-DD63004A,WRK-DD63004A,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_06.csv
+2026-06-22,2026-07-05,WI-0432,Job,2026-06-22,PROP-F75AF396,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,69.50,35.00,0.00,34.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0433,Job,2026-06-22,PROP-B594FDA8,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,56.35,40.00,3.85,12.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0434,Job,2026-06-22,PROP-DA79631D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,65.97,40.00,13.47,12.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0435,Job,2026-06-23,PROP-0617E567,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0436,Job,2026-06-23,PROP-FC154A3F,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0437,Job,2026-06-23,PROP-43D8BE16,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0438,Job,2026-06-24,PROP-4DAF268D,Client 1,Cleaning,WRK-99159EBC,WRK-4A0C30E3,true,55.19,40.00,2.69,12.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0439,Job,2026-06-25,PROP-8F424ACA,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0440,Job,2026-06-25,PROP-DA79631D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0441,Job,2026-06-26,PROP-167D930B,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0442,Job,2026-06-26,PROP-F75AF396,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0443,Job,2026-06-26,PROP-1C7EBE9E,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0444,Job,2026-06-27,PROP-2A4ECCC4,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,74.50,50.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0445,Job,2026-06-27,PROP-43D8BE16,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0446,Job,2026-06-28,PROP-8F424ACA,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0447,Job,2026-06-28,PROP-F75AF396,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0448,Job,2026-06-28,PROP-4DAF268D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0449,Job,2026-06-28,PROP-38676AB9,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0450,Job,2026-06-29,PROP-BFCFD3F1,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0451,Job,2026-06-29,PROP-2A4ECCC4,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,74.50,50.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0452,Job,2026-06-29,PROP-167D930B,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0453,Job,2026-06-29,PROP-F3FD8F46,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0454,Job,2026-06-29,PROP-1C7EBE9E,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0455,Job,2026-06-30,PROP-F75AF396,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0456,Job,2026-06-30,PROP-DA79631D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,60.20,40.00,7.70,12.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0457,Job,2026-07-02,PROP-BFCFD3F1,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0458,Job,2026-07-02,PROP-D8248E85,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0459,Job,2026-07-03,PROP-FC154A3F,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0460,Job,2026-07-03,PROP-2A4ECCC4,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,74.50,50.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0461,Job,2026-07-03,PROP-38676AB9,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0462,Job,2026-07-04,PROP-38676AB9,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0463,Job,2026-07-05,PROP-B594FDA8,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0464,Job,2026-07-05,PROP-1C7EBE9E,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0465,Job,2026-07-05,PROP-4DAF268D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0466,Job,2026-07-05,PROP-DA79631D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0467,Job,2026-07-05,PROP-F75AF396,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0468,Job,2026-07-05,PROP-5743DAA0,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,65.50,35.00,0.00,30.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0469,Job,2026-07-05,PROP-430CA5CF,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,119.50,80.00,0.00,39.50,quoted,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0470,Job,2026-07-05,PROP-7BD057D4,Client 3,Cleaning,,,false,66.50,0.00,0.00,66.50,job-business,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0471,Job,2026-07-05,PROP-AA45D193,Client 3,Cleaning,,,false,55.50,0.00,0.00,55.50,job-business,,false,true,false,false,jobs_period_07.csv
+2026-06-22,2026-07-05,WI-0472,Job,2026-07-05,PROP-15C4B2C1,Client 3,Cleaning,,,false,66.50,0.00,0.00,66.50,job-business,,false,true,false,false,jobs_period_07.csv
+2026-07-06,2026-07-19,WI-0473,Job,2026-07-06,PROP-2A4ECCC4,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,74.50,50.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0474,Job,2026-07-06,PROP-43D8BE16,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0475,Job,2026-07-06,PROP-167D930B,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0476,Job,2026-07-06,PROP-85C040C1,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0477,Job,2026-07-07,PROP-FC154A3F,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0478,Job,2026-07-07,PROP-F75AF396,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0479,Job,2026-07-08,PROP-85C040C1,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0480,Job,2026-07-08,PROP-38676AB9,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0481,Job,2026-07-08,PROP-D8248E85,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0482,Job,2026-07-09,PROP-8F424ACA,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0483,Job,2026-07-09,PROP-1C7EBE9E,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0484,Job,2026-07-09,PROP-15C4B2C1,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0485,Job,2026-07-09,PROP-7BD057D4,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0486,Job,2026-07-09,PROP-43D9B9CC,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,100.00,67.50,0.00,32.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0487,Job,2026-07-10,PROP-BFCFD3F1,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0488,Job,2026-07-10,PROP-4DAF268D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0489,Job,2026-07-10,PROP-DA79631D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0490,Job,2026-07-10,PROP-85C040C1,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0491,Job,2026-07-10,PROP-6C57A059,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0492,Job,2026-07-11,PROP-2A4ECCC4,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,74.50,50.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0493,Job,2026-07-11,PROP-5743DAA0,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,65.50,35.00,0.00,30.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0494,Job,2026-07-12,PROP-FC154A3F,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0495,Job,2026-07-12,PROP-8F424ACA,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0496,Job,2026-07-12,PROP-0617E567,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0497,Job,2026-07-12,PROP-1C7EBE9E,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0498,Job,2026-07-12,PROP-DA79631D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0499,Job,2026-07-12,PROP-167D930B,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0500,Job,2026-07-12,PROP-85C040C1,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0501,Job,2026-07-12,PROP-7BD057D4,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0502,Job,2026-07-12,PROP-BFCFD3F1,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0503,Job,2026-07-13,PROP-F75AF396,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0504,Job,2026-07-13,PROP-D3E23651,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0505,Job,2026-07-13,PROP-B594FDA8,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0506,Job,2026-07-13,PROP-6C57A059,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0507,Job,2026-07-13,PROP-15C4B2C1,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0508,Job,2026-07-13,PROP-5743DAA0,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,86.50,45.00,0.00,41.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0509,Job,2026-07-14,PROP-60C27B2C,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0510,Job,2026-07-14,PROP-43D8BE16,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0511,Job,2026-07-15,PROP-430CA5CF,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0512,Job,2026-07-15,PROP-38676AB9,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0513,Job,2026-07-15,PROP-15C4B2C1,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0514,Job,2026-07-15,PROP-F3FD8F46,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0515,Job,2026-07-16,PROP-85C040C1,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0516,Job,2026-07-17,PROP-4DAF268D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0517,Job,2026-07-17,PROP-1C7EBE9E,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0518,Job,2026-07-17,PROP-F75AF396,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0519,Job,2026-07-17,PROP-DA79631D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0520,Job,2026-07-17,PROP-7BD057D4,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0521,Job,2026-07-17,PROP-FC154A3F,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0522,Job,2026-07-18,PROP-D3E23651,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0523,Job,2026-07-18,PROP-6C57A059,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0524,Job,2026-07-19,PROP-8F424ACA,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0525,Job,2026-07-19,PROP-38676AB9,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0526,Job,2026-07-19,PROP-DA79631D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0527,Job,2026-07-19,PROP-4DAF268D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0528,Job,2026-07-19,PROP-430CA5CF,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0529,Job,2026-07-19,PROP-B594FDA8,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0530,Job,2026-07-19,PROP-CFDA1271,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,40.00,30.00,0.00,10.00,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0531,Job,2026-07-19,PROP-D3E23651,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-06,2026-07-19,WI-0532,Job,2026-07-19,PROP-6C57A059,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_08.csv
+2026-07-20,2026-08-02,WI-0533,Job,2026-07-20,PROP-167D930B,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0534,Job,2026-07-20,PROP-60C27B2C,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0535,Job,2026-07-20,PROP-FC154A3F,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0536,Job,2026-07-20,PROP-BFCFD3F1,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0537,Job,2026-07-20,PROP-1C7EBE9E,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0538,Job,2026-07-20,PROP-F3FD8F46,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0539,Job,2026-07-20,PROP-AA45D193,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0540,Job,2026-07-20,PROP-7BD057D4,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,66.50,40.00,0.00,26.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0541,Job,2026-07-20,PROP-85C040C1,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0542,Job,2026-07-23,PROP-85C040C1,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0543,Job,2026-07-23,PROP-B594FDA8,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0544,Job,2026-07-23,PROP-43D8BE16,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0545,Job,2026-07-24,PROP-FC154A3F,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0546,Job,2026-07-24,PROP-F75AF396,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0547,Job,2026-07-24,PROP-4DAF268D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0548,Job,2026-07-25,PROP-DA79631D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0549,Job,2026-07-25,PROP-7BD057D4,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0550,Job,2026-07-25,PROP-430CA5CF,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0551,Job,2026-07-26,PROP-FC154A3F,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0552,Job,2026-07-26,PROP-F3FD8F46,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0553,Job,2026-07-26,PROP-38676AB9,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0554,Job,2026-07-26,PROP-BFCFD3F1,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0555,Job,2026-07-26,PROP-AA45D193,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0556,Job,2026-07-26,PROP-6C57A059,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0557,Job,2026-07-26,PROP-85C040C1,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0558,Job,2026-07-27,PROP-167D930B,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0559,Job,2026-07-27,PROP-F75AF396,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0560,Job,2026-07-27,PROP-D3E23651,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0561,Job,2026-07-28,PROP-8F424ACA,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0562,Job,2026-07-28,PROP-43D8BE16,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0563,Job,2026-07-28,PROP-85C040C1,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0564,Job,2026-07-28,PROP-430CA5CF,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0565,Job,2026-07-29,PROP-507559B2,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0566,Job,2026-07-30,PROP-4DAF268D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0567,Job,2026-07-30,PROP-DA79631D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0568,Job,2026-07-30,PROP-FC154A3F,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0569,Job,2026-07-30,PROP-8F424ACA,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0570,Job,2026-07-30,PROP-D8248E85,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0571,Job,2026-07-31,PROP-B594FDA8,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0572,Job,2026-07-31,PROP-38676AB9,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0573,Job,2026-07-31,PROP-F75AF396,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0574,Job,2026-08-01,PROP-60C27B2C,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,68.51,40.00,6.01,22.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0575,Job,2026-08-01,PROP-1C7EBE9E,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0576,Job,2026-08-01,PROP-85C040C1,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0577,Job,2026-08-02,PROP-FC154A3F,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0578,Job,2026-08-02,PROP-167D930B,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0579,Job,2026-08-02,PROP-430CA5CF,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0580,Job,2026-08-02,PROP-BFCFD3F1,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0581,Job,2026-08-02,PROP-DA79631D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0582,Job,2026-08-02,PROP-F75AF396,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0583,Job,2026-08-02,PROP-6C57A059,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-07-20,2026-08-02,WI-0584,Job,2026-08-02,PROP-D8248E85,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_09.csv
+2026-08-03,2026-08-16,WI-0585,Job,2026-08-03,PROP-8F424ACA,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0586,Job,2026-08-03,PROP-2A4ECCC4,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,74.50,50.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0587,Job,2026-08-03,PROP-4DAF268D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0588,Job,2026-08-03,PROP-38676AB9,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0589,Job,2026-08-03,PROP-1C7EBE9E,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0590,Job,2026-08-03,PROP-F3FD8F46,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0591,Job,2026-08-04,PROP-D3E23651,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0592,Job,2026-08-04,PROP-4CDC9771,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0593,Job,2026-08-05,PROP-B594FDA8,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0594,Job,2026-08-07,PROP-F75AF396,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0595,Job,2026-08-07,PROP-DA79631D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0596,Job,2026-08-08,PROP-4DAF268D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0597,Job,2026-08-08,PROP-43D8BE16,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0598,Job,2026-08-09,PROP-167D930B,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0599,Job,2026-08-09,PROP-F75AF396,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0600,Job,2026-08-09,PROP-8F424ACA,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0601,Job,2026-08-09,PROP-38676AB9,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0602,Job,2026-08-09,PROP-2A4ECCC4,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,74.50,50.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0603,Job,2026-08-09,PROP-DF9FFABC,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,49.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0604,Job,2026-08-09,PROP-F3FD8F46,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,66.50,45.00,0.00,21.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0605,Job,2026-08-09,PROP-6C57A059,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0606,Job,2026-08-09,PROP-60C27B2C,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,62.50,40.00,0.00,22.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0607,Job,2026-08-10,PROP-4DAF268D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0608,Job,2026-08-10,PROP-1C7EBE9E,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0609,Job,2026-08-10,PROP-FC154A3F,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0610,Job,2026-08-10,PROP-85C040C1,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0611,Job,2026-08-10,PROP-D3E23651,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0612,Job,2026-08-11,PROP-B594FDA8,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0613,Job,2026-08-11,PROP-DA79631D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0614,Job,2026-08-11,PROP-430CA5CF,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,80.50,60.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0615,Job,2026-08-11,PROP-BFCFD3F1,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0616,Job,2026-08-11,PROP-D8248E85,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0617,Job,2026-08-14,PROP-F75AF396,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0618,Job,2026-08-14,PROP-4DAF268D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0619,Job,2026-08-14,PROP-B594FDA8,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0620,Job,2026-08-15,PROP-38705FA5,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,59.50,35.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0621,Job,2026-08-15,PROP-38676AB9,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,69.50,45.00,0.00,24.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0622,Job,2026-08-16,PROP-FC154A3F,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0623,Job,2026-08-16,PROP-167D930B,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,45.00,0.00,14.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0624,Job,2026-08-16,PROP-DF9FFABC,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0625,Job,2026-08-16,PROP-430CA5CF,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,59.50,40.00,0.00,19.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0626,Job,2026-08-16,PROP-43D8BE16,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,45.50,35.00,0.00,10.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0627,Job,2026-08-16,PROP-8F424ACA,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,50.50,35.00,0.00,15.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0628,Job,2026-08-16,PROP-F75AF396,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,55.50,35.00,0.00,20.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0629,Job,2026-08-16,PROP-CFDA1271,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,40.00,30.00,0.00,10.00,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0630,Job,2026-08-16,PROP-6C57A059,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,73.50,40.00,0.00,33.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-08-03,2026-08-16,WI-0631,Job,2026-08-16,PROP-3633979E,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,52.50,40.00,0.00,12.50,quoted,,false,true,false,false,jobs_period_10.csv
+2026-03-30,2026-04-12,WI-0632,Task,2026-04-07,PROP-34CCC945,Client 1,Other task,,WRK-DD63004A,false,247.00,0.00,0.00,247.00,task-business,2026-08-15T12:20:10.540Z,false,true,false,false,tasks_period_01.csv
+2026-03-30,2026-04-12,WI-0633,Task,2026-04-07,PROP-3D870726,Client 2,Other task,WRK-2E535014,WRK-2E535014,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-15T12:20:26.668Z,false,true,false,false,tasks_period_01.csv
+2026-03-30,2026-04-12,WI-0634,Task,2026-04-08,PROP-A2709BF0,Client 1,Key handling,,WRK-DD63004A,false,30.00,0.00,0.00,30.00,task-business,2026-08-15T12:20:48.737Z,false,true,false,false,tasks_period_01.csv
+2026-03-30,2026-04-12,WI-0635,Task,2026-04-09,PROP-2CFAA8CA,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-15T12:21:05.681Z,false,true,false,false,tasks_period_01.csv
+2026-03-30,2026-04-12,WI-0636,Task,2026-04-09,PROP-BFCFD3F1,Client 1,Inspection,WRK-DD63004A,WRK-DD63004A,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-15T12:21:20.042Z,false,true,false,false,tasks_period_01.csv
+2026-03-30,2026-04-12,WI-0637,Task,2026-04-10,PROP-2476444F,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,28.00,20.00,0.00,8.00,task-approved,2026-08-15T12:21:37.074Z,false,true,false,false,tasks_period_01.csv
+2026-03-30,2026-04-12,WI-0638,Task,2026-04-10,PROP-3669A2DD,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,40.00,20.00,0.00,20.00,task-approved,2026-08-15T12:22:15.466Z,false,true,false,false,tasks_period_01.csv
+2026-03-30,2026-04-12,WI-0639,Task,2026-04-12,PROP-C498828E,Client 1,Key handling,WRK-DD63004A,WRK-DD63004A,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-15T12:22:38.866Z,false,true,false,false,tasks_period_01.csv
+2026-03-30,2026-04-12,WI-0640,Task,2026-04-12,PROP-2E04A5DE,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-15T12:22:48.056Z,false,true,false,false,tasks_period_01.csv
+2026-03-30,2026-04-12,WI-0641,Task,2026-04-12,PROP-F3FD8F46,Client 1,Other task,,WRK-DD63004A,false,21.00,0.00,0.00,21.00,task-business,2026-08-15T12:23:01.938Z,false,true,false,false,tasks_period_01.csv
+2026-04-13,2026-04-26,WI-0642,Task,2026-04-13,PROP-07CED4FF,Client 1,Inspection,,WRK-DD63004A,false,3.85,0.00,3.85,0.00,task-business,2026-08-30T11:49:00.458Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0643,Task,2026-04-14,PROP-15C4B2C1,Client 2,Cleaning,WRK-99159EBC,WRK-95B7F5D5,false,28.00,20.00,0.00,8.00,task-approved,2026-08-15T11:28:29.069Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0644,Task,2026-04-15,PROP-023A655D,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,90.00,30.00,0.00,60.00,task-approved,2026-08-15T09:47:14.182Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0645,Task,2026-04-17,PROP-34CCC945,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,59.50,45.00,0.00,14.50,task-approved,2026-08-15T09:48:41.315Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0646,Task,2026-04-17,PROP-34CCC945,Client 1,Other task,,WRK-DD63004A,false,2.45,0.00,2.45,0.00,task-business,2026-08-30T11:49:12.912Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0647,Task,2026-04-17,PROP-34CCC945,Client 2,Key handling,WRK-95B7F5D5,WRK-95B7F5D5,false,21.00,20.00,0.00,1.00,task-approved,2026-08-15T10:48:55.528Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0648,Task,2026-04-18,PROP-34CCC945,Client 1,Other task,,WRK-DD63004A,false,26.00,0.00,0.00,26.00,task-business,2026-08-15T11:04:38.609Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0649,Task,2026-04-18,PROP-34CCC945,Client 1,Other task,,WRK-DD63004A,false,78.00,0.00,0.00,78.00,task-business,2026-08-15T11:04:37.313Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0650,Task,2026-04-18,PROP-34CCC945,Client 2,Delivery or collection,,WRK-95B7F5D5,false,39.00,0.00,11.00,28.00,task-business,2026-08-30T11:56:51.255Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0651,Task,2026-04-18,PROP-7957A0E6,Client 2,Delivery or collection,WRK-99159EBC,WRK-95B7F5D5,false,170.00,80.00,0.00,90.00,task-approved,2026-08-15T11:08:31.936Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0652,Task,2026-04-18,PROP-2CAD9A11,Client 2,Other task,WRK-95B7F5D5,WRK-95B7F5D5,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-15T09:50:58.945Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0653,Task,2026-04-19,PROP-0617E567,Client 1,Other task,WRK-DD63004A,WRK-DD63004A,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-15T09:51:05.374Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0654,Task,2026-04-19,PROP-6E1FA24E,Client 1,Key handling,,WRK-DD63004A,false,60.00,0.00,0.00,60.00,task-business,2026-08-15T11:13:09.071Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0655,Task,2026-04-19,PROP-AA45D193,Client 2,Cleaning,WRK-99159EBC,WRK-95B7F5D5,false,60.00,30.00,0.00,30.00,task-approved,2026-08-15T11:15:53.903Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0656,Task,2026-04-20,PROP-34CCC945,Client 1,Key handling,,WRK-DD63004A,false,0.00,0.00,0.00,0.00,task-business,2026-08-15T11:13:12.812Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0657,Task,2026-04-20,PROP-34CCC945,Client 1,Key handling,,WRK-DD63004A,false,26.00,0.00,0.00,26.00,task-business,2026-08-15T11:13:17.153Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0658,Task,2026-04-20,PROP-752722A7,Client 1,Delivery or collection,,WRK-DD63004A,false,28.00,0.00,0.00,28.00,task-business,2026-08-15T11:13:20.405Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0659,Task,2026-04-20,PROP-39188407,Client 1,Key handling,,WRK-DD63004A,false,21.00,0.00,0.00,21.00,task-business,2026-08-15T11:13:29.039Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0660,Task,2026-04-20,PROP-34CCC945,Client 1,Other task,,WRK-DD63004A,false,52.00,0.00,0.00,52.00,task-business,2026-08-15T11:13:31.376Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0661,Task,2026-04-21,PROP-8403F4EC,Client 1,Delivery or collection,,WRK-DD63004A,false,40.00,0.00,0.00,40.00,task-business,2026-08-15T11:13:35.831Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0662,Task,2026-04-22,PROP-34CCC945,Client 1,Delivery or collection,,WRK-DD63004A,false,28.00,0.00,0.00,28.00,task-business,2026-08-15T11:13:38.861Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0663,Task,2026-04-23,PROP-0D49F4F9,Client 1,Key handling,,WRK-DD63004A,false,21.00,0.00,0.00,21.00,task-business,2026-08-15T11:08:05.488Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0664,Task,2026-04-24,PROP-707C236E,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,140.00,80.00,0.00,60.00,task-approved,2026-08-15T09:58:52.554Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0665,Task,2026-04-24,PROP-52F93D97,Client 3,Key handling,,WRK-99159EBC,false,21.00,0.00,0.00,21.00,task-business,2026-08-15T11:15:04.597Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0666,Task,2026-04-24,PROP-0617E567,Client 3,Other task,WRK-99159EBC,WRK-99159EBC,false,140.00,80.00,0.00,60.00,task-approved,2026-08-15T11:15:18.477Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0667,Task,2026-04-25,PROP-430CA5CF,Client 1,Other task,WRK-DD63004A,WRK-DD63004A,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-15T09:59:18.554Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0668,Task,2026-04-25,PROP-2476444F,Client 2,Key handling,WRK-95B7F5D5,WRK-95B7F5D5,false,35.00,20.00,0.00,15.00,task-approved,2026-08-15T10:46:43.023Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0669,Task,2026-04-25,PROP-79A1BFBE,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,80.00,40.00,0.00,40.00,task-approved,2026-08-15T11:36:55.936Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0670,Task,2026-04-26,PROP-508CD3F1,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,56.00,40.00,0.00,16.00,task-approved,2026-08-15T10:14:21.056Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0671,Task,2026-04-26,PROP-2CAD9A11,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,60.00,30.00,0.00,30.00,task-approved,2026-08-15T10:46:10.329Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0672,Task,2026-04-26,PROP-258C656D,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,189.00,30.00,0.00,159.00,task-approved,2026-08-15T10:45:39.026Z,false,true,false,false,tasks_period_02.csv
+2026-04-13,2026-04-26,WI-0673,Task,2026-04-26,PROP-F75AF396,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,28.00,20.00,0.00,8.00,task-approved,2026-08-15T11:16:22.197Z,false,true,false,false,tasks_period_02.csv
+2026-04-27,2026-05-10,WI-0674,Task,2026-04-27,PROP-797B39C2,Client 1,Inspection,,WRK-DD63004A,false,21.00,0.00,0.00,21.00,task-business,2026-08-11T12:30:05.051Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0675,Task,2026-04-27,PROP-85C040C1,Client 3,Key handling,WRK-99159EBC,WRK-99159EBC,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-11T12:30:08.837Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0676,Task,2026-04-28,PROP-34CCC945,Client 1,Other task,,WRK-DD63004A,false,52.00,0.00,0.00,52.00,task-business,2026-08-11T12:33:07.825Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0677,Task,2026-05-01,PROP-882A9472,Client 1,Key handling,,WRK-DD63004A,false,26.00,0.00,0.00,26.00,task-business,2026-08-11T12:36:50.691Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0678,Task,2026-05-01,PROP-BB4737D7,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,120.00,60.00,0.00,60.00,task-approved,2026-08-12T14:35:32.612Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0679,Task,2026-05-01,PROP-38676AB9,Client 1,Delivery or collection,WRK-DD63004A,WRK-DD63004A,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-11T12:37:54.567Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0680,Task,2026-05-02,PROP-2476444F,Client 3,Other task,WRK-99159EBC,WRK-99159EBC,false,21.00,20.00,0.00,1.00,task-approved,2026-08-12T14:48:26.153Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0681,Task,2026-05-03,PROP-B594FDA8,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,42.00,30.00,0.00,12.00,task-approved,2026-08-12T14:36:09.820Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0682,Task,2026-05-03,PROP-D1ADDF45,Client 1,Key handling,,WRK-DD63004A,false,60.00,0.00,0.00,60.00,task-business,2026-08-11T12:43:26.403Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0683,Task,2026-05-04,PROP-507559B2,Client 1,Delivery or collection,,WRK-DD63004A,false,21.00,0.00,0.00,21.00,task-business,2026-08-11T12:46:36.435Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0684,Task,2026-05-04,PROP-1552FFF3,Client 1,Other task,,WRK-DD63004A,false,33.40,0.00,5.40,28.00,task-business,2026-08-30T11:43:21.944Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0685,Task,2026-05-04,PROP-DAB50113,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,42.00,30.00,0.00,12.00,task-approved,2026-08-12T14:48:47.799Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0686,Task,2026-05-05,PROP-811CC74B,Client 1,Key handling,,WRK-DD63004A,false,21.00,0.00,0.00,21.00,task-business,2026-08-11T12:49:54.516Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0687,Task,2026-05-05,PROP-34CCC945,Client 1,Other task,,WRK-DD63004A,false,52.00,0.00,0.00,52.00,task-business,2026-08-11T12:49:58.055Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0688,Task,2026-05-05,PROP-A2709BF0,Client 1,Key handling,,WRK-DD63004A,false,29.00,0.00,0.00,29.00,task-business,2026-08-11T12:50:01.766Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0689,Task,2026-05-06,PROP-BB4737D7,Client 2,Cleaning,WRK-95B7F5D5,WRK-95B7F5D5,false,21.00,20.00,0.00,1.00,task-approved,2026-08-12T14:55:13.266Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0690,Task,2026-05-07,PROP-DAB50113,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,120.00,60.00,0.00,60.00,task-approved,2026-08-12T14:51:29.876Z,false,true,false,false,tasks_period_03.csv
+2026-04-27,2026-05-10,WI-0691,Task,2026-05-08,PROP-61FE70F2,Client 3,Other task,WRK-99159EBC,WRK-99159EBC,false,35.00,20.00,0.00,15.00,task-approved,2026-08-21T03:33:15.444Z,false,true,false,false,tasks_period_03.csv
+2026-05-11,2026-05-24,WI-0692,Task,2026-05-11,PROP-507559B2,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,42.00,30.00,0.00,12.00,task-approved,2026-08-12T13:44:35.345Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0693,Task,2026-05-11,PROP-34CCC945,Client 1,Other task,,WRK-DD63004A,false,78.00,0.00,0.00,78.00,task-business,2026-08-11T12:14:59.374Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0694,Task,2026-05-12,PROP-743C40B4,Client 1,Key handling,,WRK-DD63004A,false,30.00,0.00,0.00,30.00,task-business,2026-08-11T12:16:01.778Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0695,Task,2026-05-12,PROP-FB76D10F,Client 1,Other task,,WRK-DD63004A,false,34.00,0.00,6.00,28.00,task-business,2026-08-27T14:06:47.589Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0696,Task,2026-05-13,PROP-F75AF396,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-11T12:16:21.444Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0697,Task,2026-05-14,PROP-508CD3F1,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-11T12:16:34.828Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0698,Task,2026-05-16,PROP-FB303F76,Client 1,Key handling,,WRK-DD63004A,false,21.00,0.00,0.00,21.00,task-business,2026-08-11T12:16:47.639Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0699,Task,2026-05-17,PROP-23B08CAD,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,84.00,50.00,0.00,34.00,task-approved,2026-08-12T13:46:39.192Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0700,Task,2026-05-18,PROP-FC154A3F,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-11T12:17:04.584Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0701,Task,2026-05-18,PROP-60C27B2C,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-11T12:17:08.018Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0702,Task,2026-05-18,PROP-43D9B9CC,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,42.00,30.00,0.00,12.00,task-approved,2026-08-12T14:09:18.992Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0703,Task,2026-05-18,PROP-C498828E,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-11T12:18:00.422Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0704,Task,2026-05-21,PROP-79B22870,Client 1,Key handling,,WRK-DD63004A,false,30.00,0.00,0.00,30.00,task-business,2026-08-11T12:18:26.862Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0705,Task,2026-05-21,PROP-2A4ECCC4,Client 1,Key handling,,WRK-DD63004A,false,40.00,0.00,0.00,40.00,task-business,2026-08-11T12:18:28.512Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0706,Task,2026-05-21,PROP-34CCC945,Client 1,Other task,,WRK-DD63004A,false,52.00,0.00,0.00,52.00,task-business,2026-08-11T12:18:35.753Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0707,Task,2026-05-23,PROP-3D870726,Client 1,Inspection,,WRK-DD63004A,false,30.00,0.00,0.00,30.00,task-business,2026-08-11T12:18:49.532Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0708,Task,2026-05-23,PROP-34CCC945,Client 1,Other task,,WRK-DD63004A,false,78.00,0.00,0.00,78.00,task-business,2026-08-11T12:18:59.162Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0709,Task,2026-05-23,PROP-BF28EABA,Client 1,Key handling,,WRK-DD63004A,false,30.00,0.00,0.00,30.00,task-business,2026-08-11T12:19:06.425Z,false,true,false,false,tasks_period_04.csv
+2026-05-11,2026-05-24,WI-0710,Task,2026-05-23,PROP-28A7A972,Client 1,Delivery or collection,,WRK-DD63004A,false,30.00,0.00,0.00,30.00,task-business,2026-08-11T12:19:09.858Z,false,true,false,false,tasks_period_04.csv
+2026-05-25,2026-06-07,WI-0711,Task,2026-05-25,PROP-0231885B,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,62.50,40.00,0.00,22.50,task-approved,2026-08-12T13:27:36.830Z,false,true,false,false,tasks_period_05.csv
+2026-05-25,2026-06-07,WI-0712,Task,2026-05-25,PROP-38676AB9,Client 3,Cleaning,WRK-99159EBC,WRK-99159EBC,false,84.00,60.00,0.00,24.00,task-approved,2026-08-12T13:35:59.729Z,false,true,false,false,tasks_period_05.csv
+2026-05-25,2026-06-07,WI-0713,Task,2026-05-26,PROP-D98A0A34,Client 2,Maintenance,WRK-ED6E25ED,WRK-ED6E25ED,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-11T11:47:46.099Z,false,true,false,false,tasks_period_05.csv
+2026-05-25,2026-06-07,WI-0714,Task,2026-05-28,PROP-FB76D10F,Client 1,Delivery or collection,,WRK-DD63004A,false,28.00,0.00,0.00,28.00,task-business,2026-08-11T11:48:05.439Z,false,true,false,false,tasks_period_05.csv
+2026-05-25,2026-06-07,WI-0715,Task,2026-05-28,PROP-DA79631D,Client 1,Other task,WRK-DD63004A,WRK-DD63004A,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-11T11:48:08.756Z,false,true,false,false,tasks_period_05.csv
+2026-05-25,2026-06-07,WI-0716,Task,2026-05-28,PROP-DCC1D1C1,Client 1,Key handling,,WRK-DD63004A,false,50.00,0.00,0.00,50.00,task-business,2026-08-11T11:48:19.888Z,false,true,false,false,tasks_period_05.csv
+2026-05-25,2026-06-07,WI-0717,Task,2026-05-28,PROP-0617E567,Client 1,Other task,,WRK-DD63004A,false,21.00,0.00,0.00,21.00,task-business,2026-08-11T11:48:34.071Z,false,true,false,false,tasks_period_05.csv
+2026-05-25,2026-06-07,WI-0718,Task,2026-05-28,PROP-34CCC945,Client 1,Other task,,WRK-DD63004A,false,26.00,0.00,0.00,26.00,task-business,2026-08-11T11:48:40.032Z,false,true,false,false,tasks_period_05.csv
+2026-05-25,2026-06-07,WI-0719,Task,2026-05-31,PROP-2CAD9A11,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,52.50,40.00,0.00,12.50,task-approved,2026-08-12T13:29:34.341Z,false,true,false,false,tasks_period_05.csv
+2026-05-25,2026-06-07,WI-0720,Task,2026-06-02,PROP-34CCC945,Client 1,Other task,,WRK-DD63004A,false,273.00,0.00,0.00,273.00,task-business,2026-08-11T11:49:10.774Z,false,true,false,false,tasks_period_05.csv
+2026-05-25,2026-06-07,WI-0721,Task,2026-06-04,PROP-CFDA1271,Client 1,Other task,WRK-DD63004A,WRK-DD63004A,false,21.00,20.00,0.00,1.00,task-approved,2026-08-12T13:32:15.304Z,false,true,false,false,tasks_period_05.csv
+2026-05-25,2026-06-07,WI-0722,Task,2026-06-05,PROP-34CCC945,Client 1,Inspection,,WRK-DD63004A,false,78.00,0.00,0.00,78.00,task-business,2026-08-11T12:12:41.128Z,false,true,false,false,tasks_period_05.csv
+2026-05-25,2026-06-07,WI-0723,Task,2026-06-06,PROP-A4A59DF2,Client 1,Cleaning,,WRK-DD63004A,false,30.00,0.00,0.00,30.00,task-business,2026-08-11T11:49:45.060Z,false,true,false,false,tasks_period_05.csv
+2026-05-25,2026-06-07,WI-0724,Task,2026-06-06,PROP-2682C6C3,Client 1,Key handling,,WRK-DD63004A,false,30.00,0.00,0.00,30.00,task-business,2026-08-11T11:49:51.875Z,false,true,false,false,tasks_period_05.csv
+2026-06-08,2026-06-21,WI-0725,Task,2026-06-09,PROP-0617E567,Client 1,Delivery or collection,,WRK-DD63004A,false,60.00,0.00,0.00,60.00,task-business,2026-08-11T11:19:41.464Z,false,true,false,false,tasks_period_06.csv
+2026-06-08,2026-06-21,WI-0726,Task,2026-06-12,PROP-34CCC945,Client 1,Other task,,WRK-DD63004A,false,143.00,0.00,0.00,143.00,task-business,2026-08-11T11:19:48.028Z,false,true,false,false,tasks_period_06.csv
+2026-06-08,2026-06-21,WI-0727,Task,2026-06-12,PROP-16FD8C17,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-11T11:19:56.686Z,false,true,false,false,tasks_period_06.csv
+2026-06-08,2026-06-21,WI-0728,Task,2026-06-14,PROP-882A9472,Client 1,Key handling,,WRK-DD63004A,false,30.00,0.00,0.00,30.00,task-business,2026-08-11T11:20:09.331Z,false,true,false,false,tasks_period_06.csv
+2026-06-08,2026-06-21,WI-0729,Task,2026-06-15,PROP-42312AA9,Client 1,Key handling,,WRK-DD63004A,false,30.00,0.00,0.00,30.00,task-business,2026-08-11T11:20:19.567Z,false,true,false,false,tasks_period_06.csv
+2026-06-08,2026-06-21,WI-0730,Task,2026-06-21,PROP-707C236E,Client 1,Cleaning,WRK-DD63004A,WRK-DD63004A,false,45.50,35.00,0.00,10.50,task-approved,2026-08-12T13:14:27.647Z,false,true,false,false,tasks_period_06.csv
+2026-06-22,2026-07-05,WI-0731,Task,2026-06-23,PROP-01FBB1D1,Client 1,Delivery or collection,,WRK-4A0C30E3,false,38.50,0.00,10.50,28.00,task-business,2026-08-27T13:57:40.452Z,false,true,false,false,tasks_period_07.csv
+2026-06-22,2026-07-05,WI-0732,Task,2026-06-25,PROP-D98A0A34,Client 1,Key handling,,WRK-4A0C30E3,false,30.00,0.00,0.00,30.00,task-business,2026-08-27T13:57:29.726Z,false,true,false,false,tasks_period_07.csv
+2026-06-22,2026-07-05,WI-0733,Task,2026-06-25,PROP-4692A5D3,Client 1,Key handling,,WRK-4A0C30E3,false,100.00,0.00,0.00,100.00,task-business,2026-08-27T13:57:23.970Z,false,true,false,false,tasks_period_07.csv
+2026-06-22,2026-07-05,WI-0734,Task,2026-06-26,PROP-F75AF396,Client 1,Cleaning,,WRK-4A0C30E3,false,70.00,0.00,42.00,28.00,task-business,2026-08-27T13:57:48.564Z,false,true,false,false,tasks_period_07.csv
+2026-06-22,2026-07-05,WI-0735,Task,2026-06-26,PROP-0617E567,Client 1,Key handling,,WRK-4A0C30E3,false,30.00,0.00,0.00,30.00,task-business,2026-08-27T13:58:05.568Z,false,true,false,false,tasks_period_07.csv
+2026-06-22,2026-07-05,WI-0736,Task,2026-06-27,PROP-2A4ECCC4,Client 1,Other task,WRK-4A0C30E3,WRK-4A0C30E3,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-06T16:58:02.155Z,false,true,false,false,tasks_period_07.csv
+2026-06-22,2026-07-05,WI-0737,Task,2026-06-28,PROP-34CCC945,Client 1,Inspection,WRK-4A0C30E3,WRK-4A0C30E3,false,52.00,0.00,0.00,52.00,task-rejected,2026-08-06T16:58:07.426Z,false,true,false,false,tasks_period_07.csv
+2026-06-22,2026-07-05,WI-0738,Task,2026-06-29,PROP-C237AFD9,Client 1,Delivery or collection,,WRK-4A0C30E3,false,50.50,0.00,10.50,40.00,task-business,2026-08-27T13:58:44.405Z,false,true,false,false,tasks_period_07.csv
+2026-06-22,2026-07-05,WI-0739,Task,2026-06-30,PROP-DA79631D,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-06T16:58:20.891Z,false,true,false,false,tasks_period_07.csv
+2026-06-22,2026-07-05,WI-0740,Task,2026-07-01,PROP-F3FD8F46,Client 1,Key handling,,WRK-4A0C30E3,false,50.00,0.00,0.00,50.00,task-business,2026-08-27T13:59:52.876Z,false,true,false,false,tasks_period_07.csv
+2026-06-22,2026-07-05,WI-0741,Task,2026-07-02,PROP-D8248E85,Client 3,Other task,,,false,10.00,0.00,0.00,10.00,task-rejected,2026-08-06T16:58:31.597Z,false,true,false,false,tasks_period_07.csv
+2026-06-22,2026-07-05,WI-0742,Task,2026-07-05,PROP-E703C39B,Client 1,Other task,WRK-4A0C30E3,WRK-4A0C30E3,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-06T16:58:44.085Z,false,true,false,false,tasks_period_07.csv
+2026-06-22,2026-07-05,WI-0743,Task,2026-07-05,PROP-947ED8F9,Client 3,Key handling,,,false,40.00,0.00,0.00,40.00,task-business,2026-08-06T16:58:51.906Z,false,true,false,false,tasks_period_07.csv
+2026-07-06,2026-07-19,WI-0744,Task,2026-07-07,PROP-6EC5AAEC,Client 3,Key handling,,,false,30.00,0.00,0.00,30.00,task-business,2026-08-06T16:47:03.298Z,false,true,false,false,tasks_period_08.csv
+2026-07-06,2026-07-19,WI-0745,Task,2026-07-08,PROP-3D870726,Client 3,Key handling,,,false,60.00,0.00,0.00,60.00,task-business,2026-08-06T16:47:09.177Z,false,true,false,false,tasks_period_08.csv
+2026-07-06,2026-07-19,WI-0746,Task,2026-07-08,PROP-34CCC945,Client 3,Other task,,,false,52.00,0.00,0.00,52.00,task-business,2026-08-06T16:47:13.512Z,false,true,false,false,tasks_period_08.csv
+2026-07-06,2026-07-19,WI-0747,Task,2026-07-09,PROP-43D9B9CC,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,28.00,20.00,0.00,8.00,task-approved,2026-08-06T16:47:25.755Z,false,true,false,false,tasks_period_08.csv
+2026-07-06,2026-07-19,WI-0748,Task,2026-07-09,PROP-7BD057D4,Client 2,Other task,WRK-99159EBC,WRK-99159EBC,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-06T16:47:39.713Z,false,true,false,false,tasks_period_08.csv
+2026-07-06,2026-07-19,WI-0749,Task,2026-07-10,PROP-0D443B6C,Client 3,Key handling,,,false,30.00,0.00,0.00,30.00,task-business,2026-08-06T16:47:48.369Z,false,true,false,false,tasks_period_08.csv
+2026-07-06,2026-07-19,WI-0750,Task,2026-07-11,PROP-85C040C1,Client 2,Delivery or collection,WRK-99159EBC,WRK-99159EBC,false,30.00,0.00,0.00,30.00,task-rejected,2026-08-06T16:47:59.888Z,false,true,false,false,tasks_period_08.csv
+2026-07-06,2026-07-19,WI-0751,Task,2026-07-14,PROP-0617E567,Client 1,Key handling,WRK-4A0C30E3,WRK-4A0C30E3,false,30.00,0.00,0.00,30.00,task-rejected,2026-08-06T16:51:06.908Z,false,true,false,false,tasks_period_08.csv
+2026-07-06,2026-07-19,WI-0752,Task,2026-07-16,PROP-0617E567,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,35.00,21.00,0.00,14.00,task-approved,2026-08-06T16:48:34.306Z,false,true,false,false,tasks_period_08.csv
+2026-07-06,2026-07-19,WI-0753,Task,2026-07-17,PROP-F75AF396,Client 3,Other task,,,false,30.00,0.00,0.00,30.00,task-business,2026-08-06T16:49:00.899Z,false,true,false,false,tasks_period_08.csv
+2026-07-06,2026-07-19,WI-0754,Task,2026-07-18,PROP-F75AF396,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,28.00,21.00,0.00,7.00,task-approved,2026-08-06T16:49:06.158Z,false,true,false,false,tasks_period_08.csv
+2026-07-20,2026-08-02,WI-0755,Task,2026-07-21,PROP-38676AB9,Client 3,Delivery or collection,,,false,62.25,0.00,22.25,40.00,task-business,2026-08-27T13:51:34.459Z,false,true,false,false,tasks_period_09.csv
+2026-07-20,2026-08-02,WI-0756,Task,2026-07-21,PROP-947ED8F9,Client 3,Key handling,,,false,30.00,0.00,0.00,30.00,task-business,2026-08-06T16:43:02.568Z,false,true,false,false,tasks_period_09.csv
+2026-07-20,2026-08-02,WI-0757,Task,2026-07-25,PROP-5743DAA0,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,21.00,21.00,0.00,0.00,task-approved,2026-08-06T16:43:14.441Z,false,true,false,false,tasks_period_09.csv
+2026-07-20,2026-08-02,WI-0758,Task,2026-07-26,PROP-6C8FBCD1,Client 3,Delivery or collection,,,false,63.25,0.00,23.25,40.00,task-business,2026-08-27T13:51:47.041Z,false,true,false,false,tasks_period_09.csv
+2026-07-20,2026-08-02,WI-0759,Task,2026-07-27,PROP-B594FDA8,Client 3,Key handling,,,false,30.00,0.00,0.00,30.00,task-business,2026-08-06T16:43:34.512Z,false,true,false,false,tasks_period_09.csv
+2026-07-20,2026-08-02,WI-0760,Task,2026-07-28,PROP-BFCFD3F1,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-06T16:43:43.420Z,false,true,false,false,tasks_period_09.csv
+2026-07-20,2026-08-02,WI-0761,Task,2026-07-29,PROP-34CCC945,Client 2,Cleaning,WRK-99159EBC,WRK-99159EBC,false,20.00,0.00,0.00,20.00,task-rejected,2026-08-06T16:44:09.115Z,false,true,false,false,tasks_period_09.csv
+2026-07-20,2026-08-02,WI-0762,Task,2026-07-31,PROP-F75AF396,Client 3,Other task,,,false,62.00,0.00,12.00,50.00,task-business,2026-08-27T13:51:54.586Z,false,true,false,false,tasks_period_09.csv
+2026-07-20,2026-08-02,WI-0763,Task,2026-07-31,PROP-81EED2D5,Client 3,Key handling,,,false,30.00,0.00,0.00,30.00,task-business,2026-08-06T16:44:28.009Z,false,true,false,false,tasks_period_09.csv
+2026-07-20,2026-08-02,WI-0764,Task,2026-08-01,PROP-7EE22A4D,Client 3,Key handling,,,false,30.00,0.00,0.00,30.00,task-business,2026-08-06T16:44:35.694Z,false,true,false,false,tasks_period_09.csv
+2026-08-03,2026-08-16,WI-0765,Task,2026-08-03,PROP-DA79631D,Client 1,Delivery or collection,WRK-4A0C30E3,WRK-4A0C30E3,false,0.00,0.00,0.00,0.00,task-rejected,2026-08-09T13:52:34.465Z,false,true,false,false,tasks_period_10.csv
+2026-08-03,2026-08-16,WI-0766,Task,2026-08-05,PROP-0841EEF9,Client 3,Key handling,,,false,30.00,0.00,0.00,30.00,task-business,2026-08-21T13:24:00.526Z,false,true,false,false,tasks_period_10.csv
+2026-08-03,2026-08-16,WI-0767,Task,2026-08-08,PROP-85C040C1,Client 2,Key handling,WRK-99159EBC,WRK-99159EBC,false,60.00,21.00,0.00,39.00,task-approved,2026-08-19T09:15:02.924Z,false,true,false,false,tasks_period_10.csv
+2026-08-03,2026-08-16,WI-0768,Task,2026-08-11,PROP-52F93D97,Client 3,Key handling,,,false,30.00,0.00,0.00,30.00,task-business,2026-08-10T08:35:28.908Z,false,true,false,false,tasks_period_10.csv
+2026-08-03,2026-08-16,WI-0769,Task,2026-08-11,PROP-34CCC945,Client 3,Inspection,,,false,52.00,0.00,0.00,52.00,task-business,2026-08-11T11:06:51.438Z,false,true,false,false,tasks_period_10.csv
+2026-08-03,2026-08-16,WI-0770,Task,2026-08-12,PROP-0B78F45A,Client 3,Key handling,,,false,46.98,0.00,6.98,40.00,task-business,2026-08-27T13:44:32.611Z,false,true,false,false,tasks_period_10.csv
+2026-08-03,2026-08-16,WI-0771,Task,2026-08-12,PROP-DDDF4ED3,Client 3,Other task,,,false,70.00,0.00,30.00,40.00,task-business,2026-08-27T13:44:35.624Z,false,true,false,false,tasks_period_10.csv
+2026-08-03,2026-08-16,WI-0772,Task,2026-08-15,PROP-F75AF396,Client 1,Cleaning,WRK-4A0C30E3,WRK-4A0C30E3,false,10.00,10.00,0.00,0.00,task-approved,2026-08-15T08:46:38.083Z,false,true,false,false,tasks_period_10.csv
+2026-08-03,2026-08-16,WI-0773,Task,2026-08-15,PROP-F826A132,Client 3,Other task,,,false,50.00,0.00,0.00,50.00,task-business,2026-08-19T09:17:23.981Z,false,true,false,false,tasks_period_10.csv
+2026-08-03,2026-08-16,WI-0774,Task,2026-08-15,PROP-38705FA5,Client 3,Inspection,,,false,62.00,0.00,22.00,40.00,task-business,2026-08-27T13:44:43.907Z,false,true,false,false,tasks_period_10.csv
+2026-08-03,2026-08-16,WI-0775,Task,2026-08-16,PROP-38705FA5,Client 3,Other task,,,false,30.00,0.00,0.00,30.00,task-business,2026-08-16T06:31:53.725Z,false,true,false,false,tasks_period_10.csv

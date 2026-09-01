@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Property dashboard preview separates high revenue from low-margin review items. -->
+  <style>.bg{fill:#f4f7fb}.panel{fill:#fff;stroke:#dfe7ef}.title{font:700 25px Arial;fill:#152536}.sub{font:14px Arial;fill:#64748b}.label{font:12px Arial;fill:#64748b}.value{font:700 24px Arial;fill:#152536}.blue{fill:#2f6fed}.teal{fill:#16a3a6}.orange{fill:#f59e0b}.red{fill:#c94b4b}.green{fill:#238b57}.row{fill:#f8fafc}.axis{stroke:#d8e1ea}</style>
+  <rect width="1200" height="675" class="bg"/>
+  <text x="34" y="43" class="title">Property Analysis</text><text x="34" y="67" class="sub">Find high-value Properties and margins that need review</text>
+  <!-- KPI cards. -->
+  <g transform="translate(34 92)"><rect width="260" height="88" rx="12" class="panel"/><text x="18" y="27" class="label">ACTIVE PROPERTIES</text><text x="18" y="62" class="value">102</text></g>
+  <g transform="translate(312 92)"><rect width="260" height="88" rx="12" class="panel"/><text x="18" y="27" class="label">TOP REVENUE PROPERTY</text><text x="18" y="62" class="value">A$2,073.50</text></g>
+  <g transform="translate(590 92)"><rect width="260" height="88" rx="12" class="panel"/><text x="18" y="27" class="label">TOP PROPERTY ITEMS</text><text x="18" y="62" class="value">40</text></g>
+  <g transform="translate(868 92)"><rect width="298" height="88" rx="12" class="panel"/><text x="18" y="27" class="label">LOW-MARGIN WATCHLIST</text><text x="18" y="62" class="value">3 shown</text></g>
+  <!-- Highest revenue Properties. -->
+  <g transform="translate(34 204)">
+    <rect width="570" height="425" rx="12" class="panel"/><text x="22" y="34" class="sub">Highest revenue Properties</text>
+    <text x="22" y="83" class="label">F75AF3</text><rect x="100" y="64" width="410" height="27" rx="6" class="blue"/><text x="516" y="84" class="label">2,074</text>
+    <text x="22" y="137" class="label">7BD057</text><rect x="100" y="118" width="397" height="27" rx="6" class="teal"/><text x="503" y="138" class="label">2,006</text>
+    <text x="22" y="191" class="label">DA7963</text><rect x="100" y="172" width="332" height="27" rx="6" class="blue"/><text x="438" y="192" class="label">1,678</text>
+    <text x="22" y="245" class="label">38676A</text><rect x="100" y="226" width="323" height="27" rx="6" class="blue"/><text x="429" y="246" class="label">1,636</text>
+    <text x="22" y="299" class="label">34CCC9</text><rect x="100" y="280" width="314" height="27" rx="6" class="orange"/><text x="420" y="300" class="label">1,587</text>
+    <line x1="22" y1="342" x2="548" y2="342" class="axis"/>
+    <text x="22" y="376" class="label">CHECK</text><text x="22" y="405" class="sub">34CCC9 has a 95.1% margin · confirm the result.</text>
+  </g>
+  <!-- Low-margin review table. -->
+  <g transform="translate(622 204)">
+    <rect width="544" height="425" rx="12" class="panel"/><text x="22" y="34" class="sub">High revenue, margin below 30%</text>
+    <text x="22" y="72" class="label">PROPERTY</text><text x="139" y="72" class="label">CLIENT</text><text x="246" y="72" class="label">REVENUE</text><text x="360" y="72" class="label">ITEMS</text><text x="447" y="72" class="label">MARGIN</text>
+    <rect x="14" y="87" width="516" height="60" rx="7" class="row"/><text x="22" y="123" class="sub">DA7963</text><text x="139" y="123" class="sub">Client 1</text><text x="246" y="123" class="sub">A$1,678</text><text x="360" y="123" class="sub">34</text><text x="447" y="123" class="red">26.7%</text>
+    <rect x="14" y="157" width="516" height="60" rx="7" class="row"/><text x="22" y="193" class="sub">85C040</text><text x="139" y="193" class="sub">Client 1</text><text x="246" y="193" class="sub">A$1,572</text><text x="360" y="193" class="sub">33</text><text x="447" y="193" class="red">28.5%</text>
+    <rect x="14" y="227" width="516" height="60" rx="7" class="row"/><text x="22" y="263" class="sub">B594FD</text><text x="139" y="263" class="sub">Client 1</text><text x="246" y="263" class="sub">A$1,462</text><text x="360" y="263" class="sub">28</text><text x="447" y="263" class="red">25.2%</text>
+    <text x="22" y="337" class="label">NEXT STEP</text><text x="22" y="367" class="sub">Review price, worker pay and cost for these</text><text x="22" y="389" class="sub">Properties before making a business-wide change.</text>
+  </g>
+</svg>

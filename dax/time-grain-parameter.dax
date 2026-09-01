@@ -1,0 +1,8 @@
+// -----------------------------------------------------------------------------
+// Time selector block: use Billing Period by default and Month only when useful.
+// Create this as a calculated table or with Power BI's Field Parameter feature.
+// -----------------------------------------------------------------------------
+Time Grain = {
+    ("Billing Period", NAMEOF ( DimBillingPeriod[Billing Period] ), 0),
+    ("Month", NAMEOF ( DimDate[Month] ), 1)
+}

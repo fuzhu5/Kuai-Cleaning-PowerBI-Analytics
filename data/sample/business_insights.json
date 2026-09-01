@@ -1,0 +1,360 @@
+{
+  "_comment": "Plain-language facts calculated from anonymous data with real source dates and amounts.",
+  "time_view": {
+    "default": "Billing Period",
+    "optional": "Month",
+    "note": "March and August are partial months, so the dashboard defaults to the closed 14-day Billing Period."
+  },
+  "overall": {
+    "business_margin_pct": 39.6,
+    "active_workers": 8,
+    "average_work_items_per_worker": 96.9,
+    "clients": 3
+  },
+  "latest_vs_previous_billing_period": {
+    "latest_period": "2026-08-03",
+    "previous_period": "2026-07-20",
+    "latest": {
+      "revenue": 3160.98,
+      "business_income": 1049.5,
+      "margin_pct": 33.2,
+      "work_items": 58,
+      "work_item_revenue": 3110.98,
+      "work_item_business_income": 1137.0,
+      "manual_business_income": -87.5,
+      "average_revenue_per_work_item": 53.64,
+      "average_business_income_per_work_item": 19.6
+    },
+    "previous": {
+      "revenue": 3224.51,
+      "business_income": 1085.0,
+      "margin_pct": 33.6,
+      "work_items": 62,
+      "work_item_revenue": 3224.51,
+      "work_item_business_income": 1125.0,
+      "manual_business_income": -40.0,
+      "average_revenue_per_work_item": 52.01,
+      "average_business_income_per_work_item": 18.15
+    },
+    "revenue_change_pct": -2.0,
+    "business_income_change_pct": -3.3,
+    "margin_change_percentage_points": -0.4,
+    "work_item_change_pct": -6.5
+  },
+  "months": [
+    {
+      "month": "2026-03",
+      "coverage": "Partial",
+      "work_items": 11,
+      "client_revenue": 983.0,
+      "worker_payout": 552.5,
+      "cost": 0.0,
+      "business_income": 430.5,
+      "margin_pct": 43.8,
+      "average_revenue_per_work_item": 69.73,
+      "revenue_change_pct": null
+    },
+    {
+      "month": "2026-04",
+      "coverage": "Full",
+      "work_items": 237,
+      "client_revenue": 15989.72,
+      "worker_payout": 9318.66,
+      "cost": 35.77,
+      "business_income": 6635.29,
+      "margin_pct": 41.5,
+      "average_revenue_per_work_item": 62.59,
+      "revenue_change_pct": 1526.6
+    },
+    {
+      "month": "2026-05",
+      "coverage": "Full",
+      "work_items": 217,
+      "client_revenue": 11887.19,
+      "worker_payout": 7248.0,
+      "cost": 22.57,
+      "business_income": 4616.62,
+      "margin_pct": 38.8,
+      "average_revenue_per_work_item": 54.05,
+      "revenue_change_pct": -25.7
+    },
+    {
+      "month": "2026-06",
+      "coverage": "Full",
+      "work_items": 99,
+      "client_revenue": 5756.11,
+      "worker_payout": 3175.0,
+      "cost": 117.11,
+      "business_income": 2464.0,
+      "margin_pct": 42.8,
+      "average_revenue_per_work_item": 58.14,
+      "revenue_change_pct": -51.6
+    },
+    {
+      "month": "2026-07",
+      "coverage": "Full",
+      "work_items": 141,
+      "client_revenue": 7508.0,
+      "worker_payout": 4640.5,
+      "cost": 57.5,
+      "business_income": 2810.0,
+      "margin_pct": 37.4,
+      "average_revenue_per_work_item": 53.25,
+      "revenue_change_pct": 30.4
+    },
+    {
+      "month": "2026-08",
+      "coverage": "Partial",
+      "work_items": 70,
+      "client_revenue": 3797.49,
+      "worker_payout": 2517.5,
+      "cost": 64.99,
+      "business_income": 1215.0,
+      "margin_pct": 32.0,
+      "average_revenue_per_work_item": 53.54,
+      "revenue_change_pct": -49.4
+    }
+  ],
+  "workers": [
+    {
+      "worker": "Worker 01",
+      "work_items": 2,
+      "jobs": 2,
+      "tasks": 0,
+      "client_revenue": 111.0,
+      "worker_payout": 70.0,
+      "business_income": 41.0,
+      "average_revenue_per_work_item": 55.5,
+      "average_payout_per_work_item": 35.0,
+      "workload_vs_team_average_pct": -97.9,
+      "latest_period_work_items": 0,
+      "previous_period_work_items": 0,
+      "work_item_change_pct": null
+    },
+    {
+      "worker": "Worker 02",
+      "work_items": 27,
+      "jobs": 26,
+      "tasks": 1,
+      "client_revenue": 1915.55,
+      "worker_payout": 1101.0,
+      "business_income": 805.75,
+      "average_revenue_per_work_item": 70.95,
+      "average_payout_per_work_item": 40.78,
+      "workload_vs_team_average_pct": -72.1,
+      "latest_period_work_items": 0,
+      "previous_period_work_items": 0,
+      "work_item_change_pct": null
+    },
+    {
+      "worker": "Worker 03",
+      "work_items": 122,
+      "jobs": 114,
+      "tasks": 8,
+      "client_revenue": 6559.02,
+      "worker_payout": 4559.0,
+      "business_income": 1975.0,
+      "average_revenue_per_work_item": 53.76,
+      "average_payout_per_work_item": 37.37,
+      "workload_vs_team_average_pct": 25.9,
+      "latest_period_work_items": 28,
+      "previous_period_work_items": 29,
+      "work_item_change_pct": -3.4
+    },
+    {
+      "worker": "Worker 04",
+      "work_items": 53,
+      "jobs": 47,
+      "tasks": 6,
+      "client_revenue": 3414.9,
+      "worker_payout": 2170.0,
+      "business_income": 1240.5,
+      "average_revenue_per_work_item": 64.43,
+      "average_payout_per_work_item": 40.94,
+      "workload_vs_team_average_pct": -45.3,
+      "latest_period_work_items": 0,
+      "previous_period_work_items": 0,
+      "work_item_change_pct": null
+    },
+    {
+      "worker": "Worker 05",
+      "work_items": 197,
+      "jobs": 175,
+      "tasks": 22,
+      "client_revenue": 11517.28,
+      "worker_payout": 7696.5,
+      "business_income": 3809.0,
+      "average_revenue_per_work_item": 58.46,
+      "average_payout_per_work_item": 39.07,
+      "workload_vs_team_average_pct": 103.4,
+      "latest_period_work_items": 22,
+      "previous_period_work_items": 26,
+      "work_item_change_pct": -15.4
+    },
+    {
+      "worker": "Worker 06",
+      "work_items": 260,
+      "jobs": 233,
+      "tasks": 27,
+      "client_revenue": 14821.33,
+      "worker_payout": 9955.0,
+      "business_income": 4835.37,
+      "average_revenue_per_work_item": 57.01,
+      "average_payout_per_work_item": 38.29,
+      "workload_vs_team_average_pct": 168.4,
+      "latest_period_work_items": 0,
+      "previous_period_work_items": 0,
+      "work_item_change_pct": null
+    },
+    {
+      "worker": "Worker 07",
+      "work_items": 19,
+      "jobs": 19,
+      "tasks": 0,
+      "client_revenue": 1537.25,
+      "worker_payout": 977.5,
+      "business_income": 559.75,
+      "average_revenue_per_work_item": 80.91,
+      "average_payout_per_work_item": 51.45,
+      "workload_vs_team_average_pct": -80.4,
+      "latest_period_work_items": 0,
+      "previous_period_work_items": 0,
+      "work_item_change_pct": null
+    },
+    {
+      "worker": "Worker 08",
+      "work_items": 10,
+      "jobs": 9,
+      "tasks": 1,
+      "client_revenue": 502.0,
+      "worker_payout": 335.0,
+      "business_income": 167.0,
+      "average_revenue_per_work_item": 50.2,
+      "average_payout_per_work_item": 33.5,
+      "workload_vs_team_average_pct": -89.7,
+      "latest_period_work_items": 0,
+      "previous_period_work_items": 0,
+      "work_item_change_pct": null
+    }
+  ],
+  "clients": [
+    {
+      "client": "Client 1",
+      "work_items": 447,
+      "properties": 81,
+      "client_revenue": 24522.74,
+      "revenue_share_pct": 55.3,
+      "business_income": 9514.37,
+      "margin_pct": 38.8,
+      "latest_period_revenue": 1455.0,
+      "previous_period_revenue": 1593.0,
+      "revenue_change_pct": -8.7
+    },
+    {
+      "client": "Client 2",
+      "work_items": 211,
+      "properties": 51,
+      "client_revenue": 13078.91,
+      "revenue_share_pct": 29.5,
+      "business_income": 4780.0,
+      "margin_pct": 36.5,
+      "latest_period_revenue": 1285.0,
+      "previous_period_revenue": 1324.01,
+      "revenue_change_pct": -2.9
+    },
+    {
+      "client": "Client 3",
+      "work_items": 117,
+      "properties": 49,
+      "client_revenue": 6740.66,
+      "revenue_share_pct": 15.2,
+      "business_income": 2886.0,
+      "margin_pct": 42.8,
+      "latest_period_revenue": 370.98,
+      "previous_period_revenue": 307.5,
+      "revenue_change_pct": 20.6
+    }
+  ],
+  "top_properties": [
+    {
+      "property": "Property F75AF3",
+      "client": "Client 1",
+      "work_items": 40,
+      "client_revenue": 2073.5,
+      "business_income": 813.5,
+      "margin_pct": 39.2
+    },
+    {
+      "property": "Property 7BD057",
+      "client": "Client 2",
+      "work_items": 29,
+      "client_revenue": 2005.5,
+      "business_income": 895.5,
+      "margin_pct": 44.7
+    },
+    {
+      "property": "Property DA7963",
+      "client": "Client 1",
+      "work_items": 34,
+      "client_revenue": 1678.47,
+      "business_income": 448.5,
+      "margin_pct": 26.7
+    },
+    {
+      "property": "Property 38676A",
+      "client": "Client 1",
+      "work_items": 24,
+      "client_revenue": 1635.75,
+      "business_income": 608.5,
+      "margin_pct": 37.2
+    },
+    {
+      "property": "Property 34CCC9",
+      "client": "Client 1",
+      "work_items": 24,
+      "client_revenue": 1586.95,
+      "business_income": 1508.5,
+      "margin_pct": 95.1
+    },
+    {
+      "property": "Property 85C040",
+      "client": "Client 1",
+      "work_items": 33,
+      "client_revenue": 1571.83,
+      "business_income": 447.75,
+      "margin_pct": 28.5
+    },
+    {
+      "property": "Property B594FD",
+      "client": "Client 1",
+      "work_items": 28,
+      "client_revenue": 1461.85,
+      "business_income": 368.0,
+      "margin_pct": 25.2
+    },
+    {
+      "property": "Property 15C4B2",
+      "client": "Client 2",
+      "work_items": 21,
+      "client_revenue": 1445.5,
+      "business_income": 555.5,
+      "margin_pct": 38.4
+    },
+    {
+      "property": "Property FC154A",
+      "client": "Client 1",
+      "work_items": 23,
+      "client_revenue": 1309.0,
+      "business_income": 429.0,
+      "margin_pct": 32.8
+    },
+    {
+      "property": "Property 430CA5",
+      "client": "Client 1",
+      "work_items": 21,
+      "client_revenue": 1300.75,
+      "business_income": 440.75,
+      "margin_pct": 33.9
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "_comment": "This profile keeps real source dates and amounts while using anonymous public identities.",
+  "evidence_maturity": "Anonymised local portfolio data with real source dates and financial values",
+  "source_period_start": "2026-03-30",
+  "source_period_end": "2026-08-16",
+  "billing_periods": 10,
+  "row_counts": {
+    "work_items": 775,
+    "jobs": 631,
+    "tasks": 144,
+    "manual_entries": 41,
+    "property_period_snapshots": 350,
+    "distinct_properties": 102
+  },
+  "financial_totals_aud": {
+    "approved_client_price": 45921.51,
+    "approved_worker_price": 27452.16,
+    "cost": 297.94,
+    "business_income": 18171.41
+  },
+  "quality_observations": {
+    "financial_reconciliation_failures": 0,
+    "negative_financial_records": 28,
+    "assignment_overrides": 64,
+    "price_overrides": 2,
+    "empty_manual_entry_files": 4,
+    "client_count": 3
+  }
+}

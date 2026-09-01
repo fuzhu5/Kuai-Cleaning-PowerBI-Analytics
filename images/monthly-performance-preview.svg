@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Monthly dashboard preview uses real totals and keeps the two partial months visible. -->
+  <style>
+    .bg{fill:#f4f7fb}.panel{fill:#fff;stroke:#dfe7ef}.title{font:700 25px Arial;fill:#152536}.sub{font:14px Arial;fill:#64748b}.label{font:12px Arial;fill:#64748b}.value{font:700 24px Arial;fill:#152536}.axis{stroke:#d8e1ea}.blue{fill:#2f6fed}.teal{fill:#16a3a6}.orange{fill:#f59e0b}.red{fill:#dc5a5a}.green{fill:#238b57}.line{fill:none;stroke:#16a3a6;stroke-width:4}.dot{fill:#16a3a6}.badge{fill:#fff3d7}.badgeText{font:700 11px Arial;fill:#9a6700}.white{fill:#fff}
+  </style>
+  <rect width="1200" height="675" class="bg"/>
+  <!-- Header and compact filters. -->
+  <text x="34" y="43" class="title">Monthly Performance</text>
+  <text x="34" y="67" class="sub">Full-month movement from April to July 2026</text>
+  <rect x="982" y="25" width="184" height="38" rx="8" class="panel"/>
+  <text x="1002" y="49" class="sub">All Clients</text>
+  <!-- KPI cards. -->
+  <g transform="translate(34 92)">
+    <rect width="210" height="92" rx="12" class="panel"/><text x="18" y="27" class="label">JUL REVENUE</text><text x="18" y="61" class="value">A$7,508</text><text x="18" y="80" class="label green">+30.4% vs Jun</text>
+  </g>
+  <g transform="translate(262 92)">
+    <rect width="210" height="92" rx="12" class="panel"/><text x="18" y="27" class="label">BUSINESS INCOME</text><text x="18" y="61" class="value">A$2,810</text><text x="18" y="80" class="label">July 2026</text>
+  </g>
+  <g transform="translate(490 92)">
+    <rect width="210" height="92" rx="12" class="panel"/><text x="18" y="27" class="label">MARGIN</text><text x="18" y="61" class="value">37.4%</text><text x="18" y="80" class="label red">-5.4 pts vs Jun</text>
+  </g>
+  <g transform="translate(718 92)">
+    <rect width="210" height="92" rx="12" class="panel"/><text x="18" y="27" class="label">WORK ITEMS</text><text x="18" y="61" class="value">141</text><text x="18" y="80" class="label">99 in June</text>
+  </g>
+  <g transform="translate(946 92)">
+    <rect width="220" height="92" rx="12" class="panel"/><text x="18" y="27" class="label">REVENUE / ITEM</text><text x="18" y="61" class="value">A$53.25</text><text x="18" y="80" class="label">Real work value</text>
+  </g>
+  <!-- Revenue bars and Business Income line. -->
+  <g transform="translate(34 207)">
+    <rect width="748" height="422" rx="12" class="panel"/>
+    <text x="22" y="34" class="sub">Revenue and Business Income by month</text>
+    <line x1="58" y1="350" x2="714" y2="350" class="axis"/><line x1="58" y1="90" x2="58" y2="350" class="axis"/>
+    <rect x="92" y="334" width="62" height="16" rx="4" class="orange"/><rect x="201" y="90" width="62" height="260" rx="4" class="blue"/><rect x="310" y="157" width="62" height="193" rx="4" class="blue"/><rect x="419" y="257" width="62" height="93" rx="4" class="blue"/><rect x="528" y="228" width="62" height="122" rx="4" class="blue"/><rect x="637" y="288" width="62" height="62" rx="4" class="orange"/>
+    <polyline points="123,322 232,178 341,230 450,285 559,270 668,311" class="line"/>
+    <circle cx="123" cy="322" r="5" class="dot"/><circle cx="232" cy="178" r="5" class="dot"/><circle cx="341" cy="230" r="5" class="dot"/><circle cx="450" cy="285" r="5" class="dot"/><circle cx="559" cy="270" r="5" class="dot"/><circle cx="668" cy="311" r="5" class="dot"/>
+    <text x="105" y="374" class="label">Mar</text><text x="214" y="374" class="label">Apr</text><text x="323" y="374" class="label">May</text><text x="432" y="374" class="label">Jun</text><text x="541" y="374" class="label">Jul</text><text x="650" y="374" class="label">Aug</text>
+    <rect x="85" y="386" width="76" height="22" rx="11" class="badge"/><text x="99" y="401" class="badgeText">PARTIAL</text><rect x="630" y="386" width="76" height="22" rx="11" class="badge"/><text x="644" y="401" class="badgeText">PARTIAL</text>
+  </g>
+  <!-- Side panel keeps the explanation to three short business facts. -->
+  <g transform="translate(800 207)">
+    <rect width="366" height="422" rx="12" class="panel"/>
+    <text x="22" y="34" class="sub">What changed</text>
+    <circle cx="31" cy="80" r="8" class="red"/><text x="52" y="77" class="value">-51.6%</text><text x="52" y="99" class="label">June revenue vs May</text>
+    <circle cx="31" cy="158" r="8" class="green"/><text x="52" y="155" class="value">+30.4%</text><text x="52" y="177" class="label">July revenue vs June</text>
+    <circle cx="31" cy="236" r="8" class="orange"/><text x="52" y="233" class="value">32.0%</text><text x="52" y="255" class="label">August margin · partial month</text>
+    <line x1="22" y1="286" x2="344" y2="286" class="axis"/>
+    <text x="22" y="320" class="sub">Next check</text>
+    <text x="22" y="350" class="label">Find the operational reason for June's</text><text x="22" y="370" class="label">lower volume before changing prices.</text>
+  </g>
+</svg>
