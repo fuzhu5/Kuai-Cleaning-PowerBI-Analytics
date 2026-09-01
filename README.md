@@ -109,17 +109,6 @@ python3 tests/verify_portfolio.py
 
 Follow [Build the report in Power BI Desktop](powerbi/BUILD_IN_POWER_BI.md). It explains the queries, table links, measure formats, time selector, pages and final checks without assuming prior knowledge of this project.
 
-## Useful reading
-
-- [What the business data is saying](docs/business-insights.md)
-- [What the dashboard needs to answer](docs/business-requirements.md)
-- [How the tables fit together](docs/model-design.md)
-- [What each page should show](docs/report-specification.md)
-- [What each field means](docs/data-dictionary.md)
-- [What was checked](docs/data-quality-report.md)
-- [What to keep in mind](docs/assumptions-and-limitations.md)
-- [How the public data was protected](data/README.md)
-
 ## Current status
 
 - Public data build: **passed**
