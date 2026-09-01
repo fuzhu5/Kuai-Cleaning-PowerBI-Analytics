@@ -118,7 +118,6 @@ Follow [Build the report in Power BI Desktop](powerbi/BUILD_IN_POWER_BI.md). It 
 - [What each field means](docs/data-dictionary.md)
 - [What was checked](docs/data-quality-report.md)
 - [What to keep in mind](docs/assumptions-and-limitations.md)
-- [How to explain the project in an interview](docs/portfolio-talking-points.md)
 - [How the public data was protected](data/README.md)
 
 ## Current status
